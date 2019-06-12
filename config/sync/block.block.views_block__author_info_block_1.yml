@@ -1,0 +1,33 @@
+uuid: 110d46b4-9ea3-44a2-ae15-a3441fae6322
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.author_info
+  module:
+    - node
+    - views
+  theme:
+    - bartik
+id: views_block__author_info_block_1
+theme: bartik
+region: sidebar_first
+weight: -4
+provider: null
+plugin: 'views_block:author_info-block_1'
+settings:
+  id: 'views_block:author_info-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      post: post
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

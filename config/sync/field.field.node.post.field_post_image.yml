@@ -1,0 +1,28 @@
+uuid: f74d9880-e6f8-45f0-a6d2-44e057edc5f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_post_image
+    - media.type.image
+    - node.type.post
+id: node.post.field_post_image
+field_name: field_post_image
+entity_type: node
+bundle: post
+label: 'Post Image'
+description: 'The image of the post'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

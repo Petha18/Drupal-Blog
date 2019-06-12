@@ -1,0 +1,8 @@
+uuid: 4afc44d0-535b-4643-aaa6-07a85ef29472
+langcode: en
+status: true
+dependencies: {  }
+id: comments
+label: Comments
+target_entity_type_id: comment
+description: 'Regular comments in the site'
