@@ -14,15 +14,15 @@ the [Documentation on drupal.org](https://www.drupal.org/node/2471553).
 After cloning/forking this project you should do the following:
 
     *Initiate containers:
-        *ddev start
+        ddev start
     *Install dependencies:
         *ddev composer install
     *Install site using existing config:
-        *ddev exec drush si --db-url=mysql://db:db@db/db --config-dir=../config/sync
+        ddev exec drush si --db-url=mysql://db:db@db/db --config-dir=../config/sync
     *Import config
-        *ddev exec drush cim -y
-    *Import default content:
-        *ddev exec drush dcdi
+        ddev exec drush cim -y
+    * Import default content:
+        ddev exec drush dcdi
 
 
 ## What does the template do?
