@@ -13,15 +13,15 @@ the [Documentation on drupal.org](https://www.drupal.org/node/2471553).
 
 After cloning/forking this project you should do the following:
 
-    *Initiate containers:
+*Initiate containers:
         ddev start
-    *Install dependencies:
+*Install dependencies:
         ddev composer install
-    *Install site using existing config:
-        ddev exec drush si --db-url=mysql://db:db@db/db --config-dir=../config/sync
-    *Import config
+*Install site using existing config:
+        ddev exec drush si minimal --db-url=mysql://db:db@db/db --config-dir=../config/sync
+* Import config
         ddev exec drush cim -y
-    * Import default content:
+* Import default content:
         ddev exec drush dcdi
 
 
