@@ -1,0 +1,229 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/3?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/post"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/field_post_category": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/field_post_image": [
+            {
+                "href": "http:\/\/default\/media\/2\/edit?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 3
+        }
+    ],
+    "uuid": [
+        {
+            "value": "1b1f2943-f8e5-4775-a936-702231537780"
+        }
+    ],
+    "vid": [
+        {
+            "value": 10
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "post"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-06-12T18:25:03+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "149e8a02-682c-40fd-ba06-f72fbb24380e"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "149e8a02-682c-40fd-ba06-f72fbb24380e"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/field_post_category": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/category"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c084e500-c089-4640-8ea8-e03b5db585d4"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/field_post_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/2\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b3c32656-71a1-42f9-82bd-f31552625971"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Nintendo debutes on E3 2019",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-12T05:11:26+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-12T18:25:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Nintendo se ha sacado de la chistera una excelente conferencia previa al E3 2019 en el que ha mostrado y puesto fecha a su cat\u00e1logo de 2019 y avanzado algunas de las cosas que vienen en el futuro de Nintendo Switch. En el E3 de las filtraciones y de la falta de gameplay Nintendo ense\u00f1\u00f3 mucho de lo segundo y se apunt\u00f3 la \u00fanica gran sorpresa de la feria: The Legend of Zelda: Breath of the Wild 2 (t\u00edtulo no definitivo). Esta continuaci\u00f3n directa del primer Zelda de Switch ya est\u00e1 en desarrollo y parece que ser\u00e1 continuista con el estilo visual del excelente \u00faltimo Zelda. Antes, Nintendo mostr\u00f3 un enorme repertorio de juegos, desde anuncios de t\u00edtulos completamente nuevas hasta confirmaciones de nuevas versi\u00f3nes de Switch: llegar\u00e1n Alien Isolation, Dauntless, la trilog\u00eda de Spyro y Resident Evil 5 y 6\u2026 \r\n\r\nLo \u00fanico que se hab\u00eda filtrado previamente, la versi\u00f3n de The Witcher 3 en Switch, no le hizo demasiado da\u00f1o a la conferencia, porque mucha gente directamente no se lo cre\u00eda. Pero s\u00ed, Geralt the Rivia cabalgar\u00e1 en Nintendo Switch este mismo 2019, en lo que ser\u00e1 una oportunidad para que una nueva audiencia disfrute de uno de los mejores juegos de todos los tiempos. Tambi\u00e9n se han anunciado por sorpresa Trials of Mana, Empire of Sin, No More Heroes 3 y un remake de Panzer Dragoon. La \u00fanica mala noticia es que Animal Crossing Switch no llegar\u00e1 hasta 2020.",
+            "format": "plain_text",
+            "processed": "<p>Nintendo se ha sacado de la chistera una excelente conferencia previa al E3 2019 en el que ha mostrado y puesto fecha a su cat\u00e1logo de 2019 y avanzado algunas de las cosas que vienen en el futuro de Nintendo Switch. En el E3 de las filtraciones y de la falta de gameplay Nintendo ense\u00f1\u00f3 mucho de lo segundo y se apunt\u00f3 la \u00fanica gran sorpresa de la feria: The Legend of Zelda: Breath of the Wild 2 (t\u00edtulo no definitivo). Esta continuaci\u00f3n directa del primer Zelda de Switch ya est\u00e1 en desarrollo y parece que ser\u00e1 continuista con el estilo visual del excelente \u00faltimo Zelda. Antes, Nintendo mostr\u00f3 un enorme repertorio de juegos, desde anuncios de t\u00edtulos completamente nuevas hasta confirmaciones de nuevas versi\u00f3nes de Switch: llegar\u00e1n Alien Isolation, Dauntless, la trilog\u00eda de Spyro y Resident Evil 5 y 6\u2026 <\/p>\n<p>Lo \u00fanico que se hab\u00eda filtrado previamente, la versi\u00f3n de The Witcher 3 en Switch, no le hizo demasiado da\u00f1o a la conferencia, porque mucha gente directamente no se lo cre\u00eda. Pero s\u00ed, Geralt the Rivia cabalgar\u00e1 en Nintendo Switch este mismo 2019, en lo que ser\u00e1 una oportunidad para que una nueva audiencia disfrute de uno de los mejores juegos de todos los tiempos. Tambi\u00e9n se han anunciado por sorpresa Trials of Mana, Empire of Sin, No More Heroes 3 y un remake de Panzer Dragoon. La \u00fanica mala noticia es que Animal Crossing Switch no llegar\u00e1 hasta 2020.<\/p>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_key_words": [
+        {
+            "value": "Banjo Kasooie",
+            "format": "plain_text",
+            "processed": "<p>Banjo Kasooie<\/p>\n"
+        },
+        {
+            "value": "Nintendo",
+            "format": "plain_text",
+            "processed": "<p>Nintendo<\/p>\n"
+        },
+        {
+            "value": "E3",
+            "format": "plain_text",
+            "processed": "<p>E3<\/p>\n"
+        }
+    ],
+    "field_post_comments": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1560316375,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0
+        }
+    ],
+    "field_related_links": [
+        {
+            "uri": "https:\/\/www.youtube.com\/watch?v=Zr9eAtwcYlo",
+            "title": "Nintendo Direct e3 2019",
+            "options": []
+        }
+    ]
+}

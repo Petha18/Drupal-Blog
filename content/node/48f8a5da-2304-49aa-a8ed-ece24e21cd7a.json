@@ -1,0 +1,223 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/4?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/post"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/field_post_category": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/field_post_image": [
+            {
+                "href": "http:\/\/default\/media\/4\/edit?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 4
+        }
+    ],
+    "uuid": [
+        {
+            "value": "48f8a5da-2304-49aa-a8ed-ece24e21cd7a"
+        }
+    ],
+    "vid": [
+        {
+            "value": 6
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "post"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-06-12T05:29:23+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "149e8a02-682c-40fd-ba06-f72fbb24380e"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "149e8a02-682c-40fd-ba06-f72fbb24380e"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/field_post_category": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/category"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "073c7889-cad9-4fdb-bd2d-99c588e405e7"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/field_post_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/4\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "68f4cbce-99cb-4fa4-a3e5-bb1ef29871e2"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Matt Braly\u2019s \u2018Hoppy\u2019 Childhood Memories Inspired New Disney Channel Series, \u2018Amphibia\u2019 ",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-12T05:28:51+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-12T05:29:23+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Annie Award-winning \u2018Gravity Falls\u2019 director\u2019s new \u2018frog-out-of-water\u2019 show, premiering June 17, is based on vacations he took as a kid to visit family in Bangkok, Thailand. \r\n\r\nWith Season 2 already greenlit, and Season 1 set for a June 17 debut, Disney Channel viewers will soon be seeing a considerable amount of fearless teen Anne Boonchuy, and her experiences with an odd family of frogs, led by Sprig Plantar, in the animated comedy series, Amphibia. Created and executive produced by Annie Award-winning director Matt Braly (Gravity Falls), Amphibia is inspired by childhood trips he took to connect with family in Bangkok, Thailand.",
+            "format": "plain_text",
+            "processed": "<p>Annie Award-winning \u2018Gravity Falls\u2019 director\u2019s new \u2018frog-out-of-water\u2019 show, premiering June 17, is based on vacations he took as a kid to visit family in Bangkok, Thailand. <\/p>\n<p>With Season 2 already greenlit, and Season 1 set for a June 17 debut, Disney Channel viewers will soon be seeing a considerable amount of fearless teen Anne Boonchuy, and her experiences with an odd family of frogs, led by Sprig Plantar, in the animated comedy series, Amphibia. Created and executive produced by Annie Award-winning director Matt Braly (Gravity Falls), Amphibia is inspired by childhood trips he took to connect with family in Bangkok, Thailand.<\/p>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_key_words": [
+        {
+            "value": "Gravity Falls",
+            "format": "plain_text",
+            "processed": "<p>Gravity Falls<\/p>\n"
+        },
+        {
+            "value": "Disney Channel",
+            "format": "plain_text",
+            "processed": "<p>Disney Channel<\/p>\n"
+        }
+    ],
+    "field_post_comments": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1560317363,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0
+        }
+    ]
+}
