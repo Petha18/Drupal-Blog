@@ -16,7 +16,7 @@ After cloning/forking this project you should do the following:
     *Initiate containers:
         ddev start
     *Install dependencies:
-        *ddev composer install
+        ddev composer install
     *Install site using existing config:
         ddev exec drush si --db-url=mysql://db:db@db/db --config-dir=../config/sync
     *Import config
