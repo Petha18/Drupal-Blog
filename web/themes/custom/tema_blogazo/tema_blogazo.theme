@@ -1,0 +1,22 @@
+<?php
+/**
+ * @file
+ * Theme functions
+ */
+
+// Include all files from the includes directory.
+$includes_path = dirname(__FILE__) . '/includes/*.inc';
+foreach (glob($includes_path) as $filename) {
+  require_once dirname(__FILE__) . '/includes/' . basename($filename);
+}
+
+
+function tema_blogazo_preprocess_page(array &$variables) {
+
+  // Load the site name out of configuration.
+  $config = \Drupal::config('system.site');
+  $variables['site_name'] = $config->get('name');
+  $variables['site_slogan'] = $config->get('slogan');
+  $variables['logopath'] = file_url_transform_relative(file_create_url(theme_get_setting('logo.url')));
+}
+

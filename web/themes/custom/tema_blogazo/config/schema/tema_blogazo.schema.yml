@@ -1,0 +1,5 @@
+# Schema for the configuration files of the tema_blogazo theme.
+
+tema_blogazo.settings:
+  type: theme_settings
+  label: 'tema_blogazo settings'

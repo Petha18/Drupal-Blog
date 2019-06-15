@@ -1,0 +1,10 @@
+style:
+  version: VERSION
+  css:
+    theme:
+      assets/css/tema_blogazo.style.css: {}
+  js:
+    assets/js/tema_blogazo.script.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

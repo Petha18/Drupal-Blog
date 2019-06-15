@@ -1,0 +1,75 @@
+// Page
+// -----------------------------------------------------------------------------
+
+.navbar {
+    background-color: $azul_blog !important;
+    padding: 2em;
+    .nav-item{
+        .dropdown-toggle{
+            color:$white;
+        }
+        .dropdown-menu{
+            background-color: $celeste_blog; 
+            .dropdown-item:hover{
+                background-color: $azul_blog; 
+            }
+            .dropdown-item:hover{
+                background-color: $azul_blog; 
+            }
+        }
+        a{
+            color: $white;
+        }
+        .nav-link{
+            color: $white;
+        }
+    }
+}
+
+.branding-info{
+    color: $white;
+}
+
+.post--teaser:hover{
+    opacity: 0.5;
+}
+
+.box{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+
+
+.box .text{
+    transition: 0.5s;
+    opacity: 0;
+    font-size: 1rem;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    bottom: -5%;
+    background: $celeste_blog;
+    font-family: Arial,sans-serif;
+    color: $white;
+    width: 100%; /* Set the width of the positioned div */
+}
+
+.box:hover{
+    .text{
+        opacity: 1;
+        bottom: 0%;
+    }
+    .post_img{
+        filter:brightness(0.4);
+    }
+}
+
+footer{
+    padding: 4em;
+    background-color: #04bdd6;
+    color: white;
+    font-size: 1.2rem;
+}
