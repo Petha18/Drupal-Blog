@@ -1,0 +1,30 @@
+uuid: 937f34f6-e881-4606-a4d5-fe561d32c238
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.last_posts_of_category
+  module:
+    - system
+    - views
+  theme:
+    - radix
+id: radix_views_block__last_posts_of_category_block_1
+theme: radix
+region: navbar_branding
+weight: -3
+provider: null
+plugin: 'views_block:last_posts_of_category-block_1'
+settings:
+  id: 'views_block:last_posts_of_category-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '/taxonomy/term/*'
+    negate: false
+    context_mapping: {  }

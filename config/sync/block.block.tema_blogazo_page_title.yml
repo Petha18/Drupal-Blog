@@ -1,0 +1,20 @@
+uuid: 1559e2a4-2bff-44d9-bf48-bdf82fce5c1a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - tema_blogazo
+_core:
+  default_config_hash: 8yptDf6WrXxeyevUz4nP5vfr7BtxQqCBMninhV2IJ1g
+id: tema_blogazo_page_title
+theme: tema_blogazo
+region: header
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

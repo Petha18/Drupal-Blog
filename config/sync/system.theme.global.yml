@@ -9,7 +9,7 @@ features:
   favicon: true
   node_user_picture: false
 logo:
-  path: ''
+  path: 'public://proxy.duckduckgo.com_.jpeg'
   url: ''
   use_default: true
 _core:

@@ -10,23 +10,37 @@ dependencies:
     - field.field.node.post.field_post_comments
     - field.field.node.post.field_post_image
     - field.field.node.post.field_related_links
+    - image.style.medium
     - node.type.post
   module:
+    - media
+    - text
     - user
 id: node.post.teaser
 targetEntityType: node
 bundle: post
 mode: teaser
 content:
-  links:
+  body:
+    type: text_trimmed
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      trim_length: 30
+    third_party_settings: {  }
+  field_post_image:
+    type: media_thumbnail
     weight: 0
     region: content
-    settings: {  }
+    label: hidden
+    settings:
+      image_style: medium
+      image_link: content
     third_party_settings: {  }
 hidden:
-  body: true
   field_key_words: true
   field_post_category: true
   field_post_comments: true
-  field_post_image: true
   field_related_links: true
+  links: true

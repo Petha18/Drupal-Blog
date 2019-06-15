@@ -1,25 +1,25 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/sites\/default\/files\/2019-06\/cyberpunk-2077.png"
+            "href": "http:\/\/blog.ddev.local\/sites\/default\/files\/2019-06\/1418720113_697053-drupal-512.png"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
         },
         "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
             {
-                "href": "http:\/\/default\/user\/1?_format=hal_json"
+                "href": "http:\/\/blog.ddev.local\/user\/1?_format=hal_json"
             }
         ]
     },
     "fid": [
         {
-            "value": 3
+            "value": 7
         }
     ],
     "uuid": [
         {
-            "value": "b4b18e8e-86ec-4437-b195-f454d89c9b3f"
+            "value": "48b09f45-20c6-43f0-9522-c2e0716c2631"
         }
     ],
     "langcode": [
@@ -32,7 +32,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                        "href": "http:\/\/blog.ddev.local\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -40,7 +40,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "149e8a02-682c-40fd-ba06-f72fbb24380e"
+                        "value": "216ef07f-cd0a-4de4-b495-a63cc02d1864"
                     }
                 ]
             }
@@ -48,13 +48,13 @@
     },
     "filename": [
         {
-            "value": "cyberpunk-2077.png"
+            "value": "1418720113_697053-drupal-512.png"
         }
     ],
     "uri": [
         {
-            "value": "public:\/\/2019-06\/cyberpunk-2077.png",
-            "url": "\/sites\/default\/files\/2019-06\/cyberpunk-2077.png"
+            "value": "public:\/\/2019-06\/1418720113_697053-drupal-512.png",
+            "url": "\/sites\/default\/files\/2019-06\/1418720113_697053-drupal-512.png"
         }
     ],
     "filemime": [
@@ -64,7 +64,7 @@
     ],
     "filesize": [
         {
-            "value": 905444
+            "value": 21008
         }
     ],
     "status": [
@@ -74,13 +74,13 @@
     ],
     "created": [
         {
-            "value": "2019-06-12T04:43:23+00:00",
+            "value": "2019-06-15T21:38:38+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2019-06-12T04:43:46+00:00",
+            "value": "2019-06-15T21:38:51+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ]

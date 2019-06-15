@@ -59,6 +59,14 @@ display:
         type: default
       row:
         type: fields
+        options:
+          default_field_elements: true
+          inline:
+            name: name
+            field_profile_pic: field_profile_pic
+            field_bio: field_bio
+          separator: ''
+          hide_empty: false
       fields:
         name:
           id: name
@@ -265,8 +273,9 @@ display:
             title: All
           title_enable: false
           title: ''
-          default_argument_type: node
-          default_argument_options: {  }
+          default_argument_type: user
+          default_argument_options:
+            user: true
           default_argument_skip_url: false
           summary_options:
             base_path: ''

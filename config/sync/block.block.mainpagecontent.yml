@@ -1,0 +1,20 @@
+uuid: fd69d25b-ca09-4eb5-8dac-ee56c5de2ec4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tema_blogazo
+id: mainpagecontent
+theme: tema_blogazo
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

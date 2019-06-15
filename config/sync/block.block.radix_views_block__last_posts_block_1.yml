@@ -1,0 +1,30 @@
+uuid: 8a247403-5a8c-4ef6-b9c1-d223851e055f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.last_posts
+  module:
+    - system
+    - views
+  theme:
+    - radix
+id: radix_views_block__last_posts_block_1
+theme: radix
+region: navbar_branding
+weight: 0
+provider: null
+plugin: 'views_block:last_posts-block_1'
+settings:
+  id: 'views_block:last_posts-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /blog
+    negate: false
+    context_mapping: {  }

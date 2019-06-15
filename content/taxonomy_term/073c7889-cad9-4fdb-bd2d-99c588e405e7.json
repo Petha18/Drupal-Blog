@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/taxonomy\/term\/2?_format=hal_json"
+            "href": "http:\/\/blog.ddev.local\/animation?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/category"
@@ -56,7 +56,7 @@
     ],
     "description": [
         {
-            "value": "About animation",
+            "value": "<p>About animation<\/p>\r\n",
             "format": "plain_text",
             "processed": "<p>About animation<\/p>\n",
             "lang": "en"
@@ -74,7 +74,7 @@
     },
     "changed": [
         {
-            "value": "2019-06-12T03:15:42+00:00",
+            "value": "2019-06-15T21:26:00+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -93,8 +93,8 @@
     ],
     "path": [
         {
-            "alias": null,
-            "pid": null,
+            "alias": "\/animation",
+            "pid": 3,
             "langcode": "en",
             "lang": "en"
         }

@@ -1,0 +1,33 @@
+uuid: b859684f-9853-4dae-a78e-043f10b3d7f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.author_info
+  module:
+    - node
+    - views
+  theme:
+    - radix
+id: radix_views_block__author_info_block_1
+theme: radix
+region: navbar_branding
+weight: -4
+provider: null
+plugin: 'views_block:author_info-block_1'
+settings:
+  id: 'views_block:author_info-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      post: post
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

@@ -1,0 +1,30 @@
+uuid: de0caa1b-f03d-4dd9-a6c9-2990db4b4192
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.category_list
+  module:
+    - system
+    - views
+  theme:
+    - tema_blogazo
+id: views_block__category_list_block_1_2
+theme: tema_blogazo
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:category_list-block_1'
+settings:
+  id: 'views_block:category_list-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

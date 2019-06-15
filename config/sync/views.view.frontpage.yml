@@ -166,10 +166,15 @@ display:
       pager:
         type: full
         options:
-          items_per_page: 10
+          items_per_page: 6
           offset: 0
           id: 0
           total_pages: 0
+          tags:
+            previous: '‹ Previous'
+            next: 'Next ›'
+            first: '« First'
+            last: 'Last »'
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -178,11 +183,6 @@ display:
             items_per_page_options_all_label: '- All -'
             offset: false
             offset_label: Offset
-          tags:
-            previous: '‹ Previous'
-            next: 'Next ›'
-            first: '« First'
-            last: 'Last »'
           quantity: 9
       query:
         type: views_query
@@ -227,12 +227,17 @@ display:
           entity_type: node
           entity_field: created
       style:
-        type: default
+        type: grid
         options:
           grouping: {  }
-          row_class: ''
-          default_row_class: true
           uses_fields: false
+          columns: 4
+          automatic_width: true
+          alignment: horizontal
+          col_class_custom: ''
+          col_class_default: true
+          row_class_custom: ''
+          row_class_default: true
       title: ''
       header: {  }
       footer: {  }
@@ -291,6 +296,20 @@ display:
     display_options:
       path: node
       display_extenders: {  }
+      style:
+        type: default
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+      defaults:
+        style: false
+        row: false
+      row:
+        type: 'entity:node'
+        options:
+          relationship: none
+          view_mode: teaser
     display_plugin: page
     display_title: Page
     id: page_1

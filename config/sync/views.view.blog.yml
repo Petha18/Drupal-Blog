@@ -68,7 +68,16 @@ display:
             previous: ‹‹
             next: ››
       style:
-        type: default
+        type: grid
+        options:
+          uses_fields: false
+          columns: 2
+          automatic_width: false
+          alignment: horizontal
+          col_class_default: true
+          col_class_custom: col-6
+          row_class_default: true
+          row_class_custom: 'mt-3 mb-3'
       row:
         type: 'entity:node'
         options:
@@ -186,6 +195,7 @@ display:
         type: normal
         title: Blog
         menu_name: main
+        weight: -49
     cache_metadata:
       max-age: -1
       contexts:

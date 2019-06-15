@@ -1,14 +1,14 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/user\/3?_format=hal_json"
+            "href": "http:\/\/blog.ddev.local\/user\/3?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
         },
         "http:\/\/drupal.org\/rest\/relation\/user\/user\/field_profile_pic": [
             {
-                "href": "http:\/\/default\/media\/1\/edit?_format=hal_json"
+                "href": "http:\/\/blog.ddev.local\/media\/1\/edit?_format=hal_json"
             }
         ]
     },
@@ -66,20 +66,20 @@
     ],
     "changed": [
         {
-            "value": "2019-06-12T04:24:53+00:00",
+            "value": "2019-06-15T21:48:08+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "access": [
         {
-            "value": "1970-01-01T00:00:00+00:00",
+            "value": "2019-06-15T22:06:41+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "login": [
         {
-            "value": "1970-01-01T00:00:00+00:00",
+            "value": "2019-06-15T21:53:48+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -111,7 +111,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/media\/1\/edit?_format=hal_json"
+                        "href": "http:\/\/blog.ddev.local\/media\/1\/edit?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/media\/image"

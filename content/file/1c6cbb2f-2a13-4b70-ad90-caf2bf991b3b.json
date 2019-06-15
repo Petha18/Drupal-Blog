@@ -1,25 +1,25 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/sites\/default\/files\/2019-06\/smash.jpg"
+            "href": "http:\/\/blog.ddev.local\/sites\/default\/files\/2019-06\/ceviche.jpeg"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
         },
         "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
             {
-                "href": "http:\/\/default\/user\/1?_format=hal_json"
+                "href": "http:\/\/blog.ddev.local\/user\/1?_format=hal_json"
             }
         ]
     },
     "fid": [
         {
-            "value": 1
+            "value": 3
         }
     ],
     "uuid": [
         {
-            "value": "6f87e0ee-1c95-45e8-ad2b-5e27d661e65d"
+            "value": "1c6cbb2f-2a13-4b70-ad90-caf2bf991b3b"
         }
     ],
     "langcode": [
@@ -32,7 +32,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                        "href": "http:\/\/blog.ddev.local\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -40,7 +40,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "149e8a02-682c-40fd-ba06-f72fbb24380e"
+                        "value": "216ef07f-cd0a-4de4-b495-a63cc02d1864"
                     }
                 ]
             }
@@ -48,13 +48,13 @@
     },
     "filename": [
         {
-            "value": "smash.jpg"
+            "value": "ceviche.jpeg"
         }
     ],
     "uri": [
         {
-            "value": "public:\/\/2019-06\/smash.jpg",
-            "url": "\/sites\/default\/files\/2019-06\/smash.jpg"
+            "value": "public:\/\/2019-06\/ceviche.jpeg",
+            "url": "\/sites\/default\/files\/2019-06\/ceviche.jpeg"
         }
     ],
     "filemime": [
@@ -64,23 +64,23 @@
     ],
     "filesize": [
         {
-            "value": 99725
+            "value": 91631
         }
     ],
     "status": [
         {
-            "value": true
+            "value": false
         }
     ],
     "created": [
         {
-            "value": "2019-06-12T04:24:03+00:00",
+            "value": "2019-06-15T15:29:47+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2019-06-12T04:24:35+00:00",
+            "value": "2019-06-15T15:29:47+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ]

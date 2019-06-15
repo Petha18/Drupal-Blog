@@ -1,0 +1,22 @@
+uuid: a28513ed-dfb9-4f53-96c2-e7bb1ae6a913
+langcode: en
+status: true
+dependencies:
+  theme:
+    - tema_blogazo
+_core:
+  default_config_hash: c-06bbElRY5sKmglk74ppgTW93Et4-EJFyNiUZMb8JY
+id: tema_blogazo_local_tasks
+theme: tema_blogazo
+region: header
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

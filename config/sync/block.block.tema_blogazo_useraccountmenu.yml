@@ -1,0 +1,25 @@
+uuid: 5e83a7f9-7153-4fb7-93f0-b2d433690b62
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - tema_blogazo
+id: tema_blogazo_useraccountmenu
+theme: tema_blogazo
+region: navbar_right
+weight: -6
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

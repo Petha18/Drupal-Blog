@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/blog.ddev.local\/sites\/default\/files\/2019-06\/8202106c7eadf2bdd38733158f247f26.jpg"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/blog.ddev.local\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 8
+        }
+    ],
+    "uuid": [
+        {
+            "value": "6754f355-1bd2-4272-88e0-82a5a4cad9da"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/blog.ddev.local\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "216ef07f-cd0a-4de4-b495-a63cc02d1864"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "8202106c7eadf2bdd38733158f247f26.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2019-06\/8202106c7eadf2bdd38733158f247f26.jpg",
+            "url": "\/sites\/default\/files\/2019-06\/8202106c7eadf2bdd38733158f247f26.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 82079
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-15T21:47:25+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-15T21:47:31+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

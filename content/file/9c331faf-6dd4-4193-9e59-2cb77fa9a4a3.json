@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/blog.ddev.local\/system\/temporary?file=proxy.duckduckgo.com_.jpeg"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/blog.ddev.local\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 6
+        }
+    ],
+    "uuid": [
+        {
+            "value": "9c331faf-6dd4-4193-9e59-2cb77fa9a4a3"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/blog.ddev.local\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "216ef07f-cd0a-4de4-b495-a63cc02d1864"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "proxy.duckduckgo.com_.jpeg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "temporary:\/\/proxy.duckduckgo.com_.jpeg",
+            "url": "\/system\/temporary?file=proxy.duckduckgo.com_.jpeg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 132798
+        }
+    ],
+    "status": [
+        {
+            "value": false
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-15T19:19:13+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-15T19:19:13+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

@@ -1,26 +1,26 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/media\/2\/edit?_format=hal_json"
+            "href": "http:\/\/blog.ddev.local\/media\/2\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
         },
         "http:\/\/drupal.org\/rest\/relation\/media\/image\/uid": [
             {
-                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "href": "http:\/\/blog.ddev.local\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/media\/image\/thumbnail": [
             {
-                "href": "http:\/\/default\/sites\/default\/files\/2019-06\/nin1.png",
+                "href": "http:\/\/blog.ddev.local\/sites\/default\/files\/2019-06\/proxy.duckduckgo.com_.jpeg",
                 "lang": "en"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/media\/image\/field_media_image": [
             {
-                "href": "http:\/\/default\/sites\/default\/files\/2019-06\/nin1.png",
+                "href": "http:\/\/blog.ddev.local\/sites\/default\/files\/2019-06\/proxy.duckduckgo.com_.jpeg",
                 "lang": "en"
             }
         ]
@@ -53,7 +53,7 @@
     ],
     "revision_created": [
         {
-            "value": "2019-06-12T04:28:07+00:00",
+            "value": "2019-06-14T21:05:08+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -68,7 +68,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                        "href": "http:\/\/blog.ddev.local\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -76,7 +76,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "149e8a02-682c-40fd-ba06-f72fbb24380e"
+                        "value": "216ef07f-cd0a-4de4-b495-a63cc02d1864"
                     }
                 ],
                 "lang": "en"
@@ -86,7 +86,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/sites\/default\/files\/2019-06\/nin1.png"
+                        "href": "http:\/\/blog.ddev.local\/sites\/default\/files\/2019-06\/proxy.duckduckgo.com_.jpeg"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
@@ -94,7 +94,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "536c241c-8bb5-4e70-9af7-eac39db10c37"
+                        "value": "b02d6b59-0575-439f-b003-b1553617865c"
                     }
                 ],
                 "lang": "en"
@@ -104,7 +104,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/sites\/default\/files\/2019-06\/nin1.png"
+                        "href": "http:\/\/blog.ddev.local\/sites\/default\/files\/2019-06\/proxy.duckduckgo.com_.jpeg"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
@@ -112,7 +112,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "536c241c-8bb5-4e70-9af7-eac39db10c37"
+                        "value": "b02d6b59-0575-439f-b003-b1553617865c"
                     }
                 ],
                 "lang": "en"
@@ -134,7 +134,7 @@
     ],
     "changed": [
         {
-            "value": "2019-06-12T04:27:50+00:00",
+            "value": "2019-06-15T15:07:43+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }

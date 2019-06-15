@@ -1,25 +1,25 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/sites\/default\/files\/2019-06\/nin1.png"
+            "href": "http:\/\/blog.ddev.local\/sites\/default\/files\/2019-06\/avengers-endgame-poster-top-half_0.jpg"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
         },
         "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
             {
-                "href": "http:\/\/default\/user\/1?_format=hal_json"
+                "href": "http:\/\/blog.ddev.local\/user\/3?_format=hal_json"
             }
         ]
     },
     "fid": [
         {
-            "value": 2
+            "value": 10
         }
     ],
     "uuid": [
         {
-            "value": "536c241c-8bb5-4e70-9af7-eac39db10c37"
+            "value": "a4f93c64-94de-4062-9a03-43654637c7c8"
         }
     ],
     "langcode": [
@@ -32,7 +32,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                        "href": "http:\/\/blog.ddev.local\/user\/3?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -40,7 +40,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "149e8a02-682c-40fd-ba06-f72fbb24380e"
+                        "value": "f9b62b8d-7698-475d-b1d5-ceedf075de96"
                     }
                 ]
             }
@@ -48,23 +48,23 @@
     },
     "filename": [
         {
-            "value": "nin1.png"
+            "value": "avengers-endgame-poster-top-half_0.jpg"
         }
     ],
     "uri": [
         {
-            "value": "public:\/\/2019-06\/nin1.png",
-            "url": "\/sites\/default\/files\/2019-06\/nin1.png"
+            "value": "public:\/\/2019-06\/avengers-endgame-poster-top-half_0.jpg",
+            "url": "\/sites\/default\/files\/2019-06\/avengers-endgame-poster-top-half_0.jpg"
         }
     ],
     "filemime": [
         {
-            "value": "image\/png"
+            "value": "image\/jpeg"
         }
     ],
     "filesize": [
         {
-            "value": 199104
+            "value": 362242
         }
     ],
     "status": [
@@ -74,13 +74,13 @@
     ],
     "created": [
         {
-            "value": "2019-06-12T04:27:50+00:00",
+            "value": "2019-06-15T21:55:00+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2019-06-12T04:28:07+00:00",
+            "value": "2019-06-15T21:55:09+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ]

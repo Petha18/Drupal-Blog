@@ -45,10 +45,10 @@ settings:
             - JustifyRight
             - JustifyBlock
   plugins:
-    language:
-      language_list: un
     stylescombo:
       styles: ''
+    language:
+      language_list: un
 image_upload:
   status: true
   scheme: public

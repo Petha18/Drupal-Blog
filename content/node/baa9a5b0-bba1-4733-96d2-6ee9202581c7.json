@@ -1,0 +1,189 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/blog.ddev.local\/node\/10?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/post"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/revision_uid": [
+            {
+                "href": "http:\/\/blog.ddev.local\/user\/3?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/uid": [
+            {
+                "href": "http:\/\/blog.ddev.local\/user\/3?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/field_post_category": [
+            {
+                "href": "http:\/\/blog.ddev.local\/animation?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 10
+        }
+    ],
+    "uuid": [
+        {
+            "value": "baa9a5b0-bba1-4733-96d2-6ee9202581c7"
+        }
+    ],
+    "vid": [
+        {
+            "value": 18
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "post"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-06-15T22:06:01+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/blog.ddev.local\/user\/3?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f9b62b8d-7698-475d-b1d5-ceedf075de96"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/blog.ddev.local\/user\/3?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f9b62b8d-7698-475d-b1d5-ceedf075de96"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/field_post_category": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/blog.ddev.local\/animation?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/category"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "073c7889-cad9-4fdb-bd2d-99c588e405e7"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "La v",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-15T22:06:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-15T22:06:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>AAAAAAHHHHH<\/p>\r\n",
+            "format": "plain_text",
+            "processed": "<p>AAAAAAHHHHH<\/p>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_post_comments": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1560636361,
+            "last_comment_name": null,
+            "last_comment_uid": 3,
+            "comment_count": 0
+        }
+    ]
+}

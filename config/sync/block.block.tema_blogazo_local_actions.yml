@@ -1,0 +1,20 @@
+uuid: 332a1891-eeb8-4b80-9de5-906ae1d834c8
+langcode: en
+status: true
+dependencies:
+  theme:
+    - tema_blogazo
+_core:
+  default_config_hash: PffmQ-ABSz5tFjWmVsR7NesunDnEivvopnJnBjl8KNE
+id: tema_blogazo_local_actions
+theme: tema_blogazo
+region: header
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

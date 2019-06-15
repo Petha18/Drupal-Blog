@@ -1,26 +1,20 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/media\/3\/edit?_format=hal_json"
+            "href": "http:\/\/blog.ddev.local\/media\/3\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
         },
         "http:\/\/drupal.org\/rest\/relation\/media\/image\/uid": [
             {
-                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "href": "http:\/\/blog.ddev.local\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/media\/image\/thumbnail": [
             {
-                "href": "http:\/\/default\/sites\/default\/files\/2019-06\/cyberpunk-2077.png",
-                "lang": "en"
-            }
-        ],
-        "http:\/\/drupal.org\/rest\/relation\/media\/image\/field_media_image": [
-            {
-                "href": "http:\/\/default\/sites\/default\/files\/2019-06\/cyberpunk-2077.png",
+                "href": "http:\/\/blog.ddev.local\/sites\/default\/files\/media-icons\/generic\/no-thumbnail.png",
                 "lang": "en"
             }
         ]
@@ -53,7 +47,7 @@
     ],
     "revision_created": [
         {
-            "value": "2019-06-12T04:43:46+00:00",
+            "value": "2019-06-14T21:05:08+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -68,7 +62,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                        "href": "http:\/\/blog.ddev.local\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -76,7 +70,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "149e8a02-682c-40fd-ba06-f72fbb24380e"
+                        "value": "216ef07f-cd0a-4de4-b495-a63cc02d1864"
                     }
                 ],
                 "lang": "en"
@@ -86,7 +80,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/sites\/default\/files\/2019-06\/cyberpunk-2077.png"
+                        "href": "http:\/\/blog.ddev.local\/sites\/default\/files\/media-icons\/generic\/no-thumbnail.png"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
@@ -94,25 +88,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "b4b18e8e-86ec-4437-b195-f454d89c9b3f"
-                    }
-                ],
-                "lang": "en"
-            }
-        ],
-        "http:\/\/drupal.org\/rest\/relation\/media\/image\/field_media_image": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "http:\/\/default\/sites\/default\/files\/2019-06\/cyberpunk-2077.png"
-                    },
-                    "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "b4b18e8e-86ec-4437-b195-f454d89c9b3f"
+                        "value": "1c8bcef1-62e1-44dc-828b-7953e104a4fa"
                     }
                 ],
                 "lang": "en"
