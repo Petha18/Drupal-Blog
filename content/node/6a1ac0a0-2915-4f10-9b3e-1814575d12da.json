@@ -1,0 +1,155 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/probando-blog.ddev.local\/node\/13?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/site_creators"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/site_creators\/revision_uid": [
+            {
+                "href": "http:\/\/probando-blog.ddev.local\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/site_creators\/uid": [
+            {
+                "href": "http:\/\/probando-blog.ddev.local\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 13
+        }
+    ],
+    "uuid": [
+        {
+            "value": "6a1ac0a0-2915-4f10-9b3e-1814575d12da"
+        }
+    ],
+    "vid": [
+        {
+            "value": 23
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "site_creators"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-06-18T04:45:41+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/site_creators\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/probando-blog.ddev.local\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "eb43be22-1dfc-4e67-9a05-909a4a02728f"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/site_creators\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/probando-blog.ddev.local\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "eb43be22-1dfc-4e67-9a05-909a4a02728f"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Gabriel Rios",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-18T04:45:41+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-18T04:45:41+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "field_name": [
+        {
+            "value": "Gabriel Rios",
+            "format": "plain_text",
+            "processed": "<p>Gabriel Rios<\/p>\n"
+        }
+    ]
+}

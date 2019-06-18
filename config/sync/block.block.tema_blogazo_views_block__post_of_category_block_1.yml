@@ -12,14 +12,14 @@ dependencies:
 id: tema_blogazo_views_block__post_of_category_block_1
 theme: tema_blogazo
 region: content
-weight: -7
+weight: -8
 provider: null
 plugin: 'views_block:post_of_category-block_1'
 settings:
   id: 'views_block:post_of_category-block_1'
   label: ''
   provider: views
-  label_display: visible
+  label_display: '0'
   views_label: ''
   items_per_page: none
 visibility:

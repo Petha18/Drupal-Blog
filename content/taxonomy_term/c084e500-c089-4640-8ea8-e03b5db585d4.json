@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/blog.ddev.local\/games?_format=hal_json"
+            "href": "http:\/\/probando-blog.ddev.local\/games?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/category"

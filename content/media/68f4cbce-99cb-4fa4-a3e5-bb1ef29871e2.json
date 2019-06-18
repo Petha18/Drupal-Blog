@@ -1,20 +1,20 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/blog.ddev.local\/media\/4\/edit?_format=hal_json"
+            "href": "http:\/\/probando-blog.ddev.local\/media\/4\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
         },
         "http:\/\/drupal.org\/rest\/relation\/media\/image\/uid": [
             {
-                "href": "http:\/\/blog.ddev.local\/user\/1?_format=hal_json",
+                "href": "http:\/\/probando-blog.ddev.local\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/media\/image\/thumbnail": [
             {
-                "href": "http:\/\/blog.ddev.local\/sites\/default\/files\/media-icons\/generic\/no-thumbnail.png",
+                "href": "http:\/\/probando-blog.ddev.local\/sites\/default\/files\/media-icons\/generic\/no-thumbnail.png",
                 "lang": "en"
             }
         ]
@@ -47,7 +47,7 @@
     ],
     "revision_created": [
         {
-            "value": "2019-06-14T21:05:08+00:00",
+            "value": "2019-06-16T21:29:38+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -62,7 +62,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/blog.ddev.local\/user\/1?_format=hal_json"
+                        "href": "http:\/\/probando-blog.ddev.local\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -70,7 +70,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "216ef07f-cd0a-4de4-b495-a63cc02d1864"
+                        "value": "eb43be22-1dfc-4e67-9a05-909a4a02728f"
                     }
                 ],
                 "lang": "en"
@@ -80,7 +80,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/blog.ddev.local\/sites\/default\/files\/media-icons\/generic\/no-thumbnail.png"
+                        "href": "http:\/\/probando-blog.ddev.local\/sites\/default\/files\/media-icons\/generic\/no-thumbnail.png"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
@@ -88,7 +88,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "1c8bcef1-62e1-44dc-828b-7953e104a4fa"
+                        "value": "3266d2ca-a23f-4a67-abc7-f605202c98e6"
                     }
                 ],
                 "lang": "en"

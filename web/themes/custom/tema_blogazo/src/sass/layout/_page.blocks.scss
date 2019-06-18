@@ -1,0 +1,223 @@
+// estas variables son la de los colores del tema_blogazo
+$azul-oscuro: #0678be !default;
+$celeste: #04bdd6 !default ;
+$rojo: #ca1a1b !default;
+
+
+// la palabra "tema_blogazo_blogazo" dentro de las clases depende del nombre del tema_blogazo_blogazo que yo usé ya 
+//que no sabia como habían nombrado el tema_blogazo_blogazo 
+//por favor remplazarla por el nombre de tema_blogazo_blogazo correspondiente.
+// esto se puede hacer con un find and replace
+//Bloques***************
+
+.block--views-block--related-links-block-1-2{//1.Bloque Related links
+background-color: $azul-oscuro;
+    margin-top:1em;
+	padding: 1.5em;
+    width: 22rem;
+
+    border: solid;
+    border-radius:1em;
+    border-color: $celeste;
+	h2{
+		color:$white !important;
+		font-size: 1.5em;
+		text-align: center;
+	}
+	.views-field-field-related-links{
+		transition: .5s;
+		font-size: 1em;
+		padding: 0.5em;
+		margin-top: 2em;
+		.field-content{
+			a{
+				color:$white !important;
+			}
+		}
+	}
+	.views-field-title:hover{
+     background-color:$white;
+     border-radius:1.5em;
+     a{
+     	color: $azul-oscuro!important;
+     }
+	}
+}
+
+.block--views-block--author-info-block-1-2{//2.Bloque Author Info
+background-color: $azul-oscuro;
+	padding: 1.5em;
+    width: 22rem;
+
+    border: solid;
+    border-radius:1em;
+    border-color: $celeste;
+	h2{
+		color:$white !important;
+		font-size: 1.5em;
+		text-align: center;
+	}
+	.views-field-title{
+		transition: .5s;
+		font-size: 1em;
+		padding: 0.5em;
+		margin-top: 2em;
+		.field-content{
+			a{
+				color:$white !important;
+			}
+		}
+	}
+	.views-field-title:hover{
+     background-color:$white;
+     border-radius:1.5em;
+     a{
+     	color: $azul-oscuro!important;
+     }
+	}
+}
+
+.block--views-block--last-posts-of-category-block-1-2{//3. Bloque Last post 0f category
+	background-color: $azul-oscuro;
+	padding: 1.5em;
+    width: 22rem;
+
+    border: solid;
+    border-radius:1em;
+    border-color: $celeste;
+	h2{
+		color:$white !important;
+		font-size: 1.5em;
+		text-align: center;
+	}
+	.views-field-title{
+		transition: .5s;
+		font-size: 1em;
+		padding: 0.5em;
+		margin-top: 2em;
+		.field-content{
+			a{
+				color:$white !important;
+			}
+		}
+	}
+	.views-field-title:hover{
+     background-color:$white;
+     border-radius:1.5em;
+     a{
+     	color: $azul-oscuro!important;
+     }
+	}
+
+}
+
+
+.block--views-block--related-posts-block-1-2{// 4 bloque de related-posts
+	margin-top:1em;
+background-color: $azul-oscuro;
+	padding: 1.5em;
+    width: 22rem;
+
+    border: solid;
+    border-radius:1em;
+    border-color: $celeste;
+	h2{
+		color:$white !important;
+		font-size: 1.5em;
+		text-align: center;
+	}
+	.views-field-title{
+		transition: .5s;
+		font-size: 1em;
+		padding: 0.5em;
+		margin-top: 2em;
+		.field-content{
+			a{
+				color:$white !important;
+			}
+		}
+	}
+	.views-field-title:hover{
+     background-color:$white;
+     border-radius:1.5em;
+     a{
+     	color: $azul-oscuro!important;
+     }
+	}
+}
+
+.block--views-block--last-posts-block-1-2{// 5. Bloque de last posts
+background-color: $azul-oscuro;
+	padding: 1.5em;
+    width: 22rem;
+
+    border: solid;
+    border-radius:1em;
+    border-color: $celeste;
+	h2{
+		color:$white !important;
+		font-size: 1.5em;
+		text-align: center;
+	}
+	.views-field-title{
+		transition: .5s;
+		font-size: 1em;
+		padding: 0.5em;
+		margin-top: 2em;
+		.field-content{
+			a{
+				color:$white !important;
+			}
+		}
+	}
+	.views-field-title:hover{
+     background-color:$white;
+     border-radius:1.5em;
+     a{
+     	color: $azul-oscuro!important;
+     }
+	}
+}
+
+.block--views-block--category-list-block-1-2{// 6. Bloque category list
+    background-color: $azul-oscuro;
+	padding: 1.5em;
+    width: 22rem;
+    margin-top: 1em;
+    border: solid;
+    border-radius:1em;
+    border-color: $celeste;
+	h2{
+		color:$white !important;
+		font-size: 1.5em;
+		text-align: center;
+	}
+	.views-field-name{
+		text-align:center;
+		transition: .5s;
+		font-size: 1em;
+		padding: 0.5em;
+		margin-top: 1em;
+		list-style-type: none !important;
+		.field-content{
+			a{
+				color:$white !important;
+				text-decoration: none !important;
+
+			}
+		}
+	}
+	.views-field-name:hover{
+     background-color:$white;
+     border-radius:1.5em;
+     a{
+     	color: $azul-oscuro!important;
+     	text-decoration: none !important;
+     }
+	}
+}
+
+//Fields*********************
+.views-field-field-related-links{//1.Campo de related links // Bloque related links
+
+}

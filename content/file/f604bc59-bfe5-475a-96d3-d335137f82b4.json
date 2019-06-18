@@ -1,25 +1,25 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/blog.ddev.local\/sites\/default\/files\/2019-06\/ceviche.jpeg"
+            "href": "http:\/\/probando-blog.ddev.local\/sites\/default\/files\/2019-06\/nin1.png"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
         },
         "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
             {
-                "href": "http:\/\/blog.ddev.local\/user\/1?_format=hal_json"
+                "href": "http:\/\/probando-blog.ddev.local\/user\/1?_format=hal_json"
             }
         ]
     },
     "fid": [
         {
-            "value": 3
+            "value": 2
         }
     ],
     "uuid": [
         {
-            "value": "1c6cbb2f-2a13-4b70-ad90-caf2bf991b3b"
+            "value": "f604bc59-bfe5-475a-96d3-d335137f82b4"
         }
     ],
     "langcode": [
@@ -32,7 +32,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/blog.ddev.local\/user\/1?_format=hal_json"
+                        "href": "http:\/\/probando-blog.ddev.local\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -40,7 +40,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "216ef07f-cd0a-4de4-b495-a63cc02d1864"
+                        "value": "eb43be22-1dfc-4e67-9a05-909a4a02728f"
                     }
                 ]
             }
@@ -48,39 +48,39 @@
     },
     "filename": [
         {
-            "value": "ceviche.jpeg"
+            "value": "nin1.png"
         }
     ],
     "uri": [
         {
-            "value": "public:\/\/2019-06\/ceviche.jpeg",
-            "url": "\/sites\/default\/files\/2019-06\/ceviche.jpeg"
+            "value": "public:\/\/2019-06\/nin1.png",
+            "url": "\/sites\/default\/files\/2019-06\/nin1.png"
         }
     ],
     "filemime": [
         {
-            "value": "image\/jpeg"
+            "value": "image\/png"
         }
     ],
     "filesize": [
         {
-            "value": 91631
+            "value": 199104
         }
     ],
     "status": [
         {
-            "value": false
+            "value": true
         }
     ],
     "created": [
         {
-            "value": "2019-06-15T15:29:47+00:00",
+            "value": "2019-06-17T02:07:00+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2019-06-15T15:29:47+00:00",
+            "value": "2019-06-17T02:07:16+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ]

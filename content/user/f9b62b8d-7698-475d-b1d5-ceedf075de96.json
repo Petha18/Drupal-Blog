@@ -1,14 +1,14 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/blog.ddev.local\/user\/3?_format=hal_json"
+            "href": "http:\/\/probando-blog.ddev.local\/user\/3?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
         },
         "http:\/\/drupal.org\/rest\/relation\/user\/user\/field_profile_pic": [
             {
-                "href": "http:\/\/blog.ddev.local\/media\/1\/edit?_format=hal_json"
+                "href": "http:\/\/probando-blog.ddev.local\/media\/1\/edit?_format=hal_json"
             }
         ]
     },
@@ -111,7 +111,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/blog.ddev.local\/media\/1\/edit?_format=hal_json"
+                        "href": "http:\/\/probando-blog.ddev.local\/media\/1\/edit?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/media\/image"

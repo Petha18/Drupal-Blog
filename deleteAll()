@@ -1,0 +1,67 @@
+ParseError: syntax error, unexpected ''\Drupal::service(asset.css.co'[31;40m[1m[error][0m
+(T_ENCAPSED_AND_WHITESPACE), expecting end of file in
+drush_core_php_eval() (line 1 of
+/home/.composer/global/drush/drush/vendor/drush/drush/commands/core/core.drush.inc(1169)
+: eval()'d code) #0
+/home/.composer/global/drush/drush/vendor/drush/drush/includes/command.inc(422):
+drush_core_php_eval(''\\Drupal::servi...', '\\Drupal::servic...',
+'_drupal_flush_c...')
+#1
+/home/.composer/global/drush/drush/vendor/drush/drush/includes/command.inc(231):
+_drush_invoke_hooks(Array, Array)
+#2
+/home/.composer/global/drush/drush/vendor/drush/drush/includes/command.inc(199):
+drush_command(''\\Drupal::servi...', '\\Drupal::servic...',
+'_drupal_flush_c...')
+#3
+/home/.composer/global/drush/drush/vendor/drush/drush/lib/Drush/Boot/BaseBoot.php(67):
+drush_dispatch(Array)
+#4
+/home/.composer/global/drush/drush/vendor/drush/drush/includes/preflight.inc(66):
+Drush\Boot\BaseBoot->bootstrap_and_dispatch()
+#5
+/home/.composer/global/drush/drush/vendor/drush/drush/drush.php(12):
+drush_main()
+#6 {main}.
+ParseError: syntax error, unexpected ''\Drupal::service(asset.css.co' (T_ENCAPSED_AND_WHITESPACE), expecting end of file in /home/.composer/global/drush/drush/vendor/drush/drush/commands/core/core.drush.inc(1169) : eval()'d code on line 1 #0 /home/.composer/global/drush/drush/vendor/drush/drush/includes/command.inc(422): drush_core_php_eval(''\\Drupal::servi...', '\\Drupal::servic...', '_drupal_flush_c...')
+#1 /home/.composer/global/drush/drush/vendor/drush/drush/includes/command.inc(231): _drush_invoke_hooks(Array, Array)
+#2 /home/.composer/global/drush/drush/vendor/drush/drush/includes/command.inc(199): drush_command(''\\Drupal::servi...', '\\Drupal::servic...', '_drupal_flush_c...')
+#3 /home/.composer/global/drush/drush/vendor/drush/drush/lib/Drush/Boot/BaseBoot.php(67): drush_dispatch(Array)
+#4 /home/.composer/global/drush/drush/vendor/drush/drush/includes/preflight.inc(66): Drush\Boot\BaseBoot->bootstrap_and_dispatch()
+#5 /home/.composer/global/drush/drush/vendor/drush/drush/drush.php(12): drush_main()
+#6 {main}
+Drush command terminated abnormally due to an unrecoverable error.   [31;40m[1m[error][0m
+Failed to execute command [drush ev '\Drupal::service(asset.css.collection_optimizer)-; \Drupal::service(asset.js.collection_optimizer)-; _drupal_flush_css_js();']: Failed to run docker-compose [-f C:\Users\ray_p\Documents\Informatica y Tecnnologia Multimedia\x11vo Semestre\Drupal\cloneProject\Probando-blog\.ddev\docker-compose.yaml exec -e DDEV_EXEC=true -w /var/www/html/web -T web drush ev '\Drupal::service(asset.css.collection_optimizer)-; \Drupal::service(asset.js.collection_optimizer)-; _drupal_flush_css_js();'], err='exit status 1', stdout='ParseError: syntax error, unexpected &#039;&#039;\Drupal::service(asset.css.co&#039; (T_ENCAPSED_AND_WHITESPACE), expecting end of file in drush_core_php_eval() (line 1 of /home/.composer/global/drush/drush/vendor/drush/drush/commands/core/core.drush.inc(1169) : eval()&#039;d code).
+', stderr='ParseError: syntax error, unexpected ''\Drupal::service(asset.css.co'[31;40m[1m[error][0m
+(T_ENCAPSED_AND_WHITESPACE), expecting end of file in
+drush_core_php_eval() (line 1 of
+/home/.composer/global/drush/drush/vendor/drush/drush/commands/core/core.drush.inc(1169)
+: eval()'d code) #0
+/home/.composer/global/drush/drush/vendor/drush/drush/includes/command.inc(422):
+drush_core_php_eval(''\\Drupal::servi...', '\\Drupal::servic...',
+'_drupal_flush_c...')
+#1
+/home/.composer/global/drush/drush/vendor/drush/drush/includes/command.inc(231):
+_drush_invoke_hooks(Array, Array)
+#2
+/home/.composer/global/drush/drush/vendor/drush/drush/includes/command.inc(199):
+drush_command(''\\Drupal::servi...', '\\Drupal::servic...',
+'_drupal_flush_c...')
+#3
+/home/.composer/global/drush/drush/vendor/drush/drush/lib/Drush/Boot/BaseBoot.php(67):
+drush_dispatch(Array)
+#4
+/home/.composer/global/drush/drush/vendor/drush/drush/includes/preflight.inc(66):
+Drush\Boot\BaseBoot->bootstrap_and_dispatch()
+#5
+/home/.composer/global/drush/drush/vendor/drush/drush/drush.php(12):
+drush_main()
+#6 {main}.
+ParseError: syntax error, unexpected ''\Drupal::service(asset.css.co' (T_ENCAPSED_AND_WHITESPACE), expecting end of file in /home/.composer/global/drush/drush/vendor/drush/drush/commands/core/core.drush.inc(1169) : eval()'d code on line 1 #0 /home/.composer/global/drush/drush/vendor/drush/drush/includes/command.inc(422): drush_core_php_eval(''\\Drupal::servi...', '\\Drupal::servic...', '_drupal_flush_c...')
+#1 /home/.composer/global/drush/drush/vendor/drush/drush/includes/command.inc(231): _drush_invoke_hooks(Array, Array)
+#2 /home/.composer/global/drush/drush/vendor/drush/drush/includes/command.inc(199): drush_command(''\\Drupal::servi...', '\\Drupal::servic...', '_drupal_flush_c...')
+#3 /home/.composer/global/drush/drush/vendor/drush/drush/lib/Drush/Boot/BaseBoot.php(67): drush_dispatch(Array)
+#4 /home/.composer/global/drush/drush/vendor/drush/drush/includes/preflight.inc(66): Drush\Boot\BaseBoot->bootstrap_and_dispatch()
+#5 /home/.composer/global/drush/drush/vendor/drush/drush/drush.php(12): drush_main()
+#6 {main}
+Drush command terminated abnormally due to an unrecoverable error.   [31;40m[1m[error][0m'

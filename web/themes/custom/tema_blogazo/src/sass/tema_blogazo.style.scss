@@ -47,6 +47,7 @@
 @import "layout/page.header";
 @import "layout/page.content";
 @import "layout/page.footer";
+@import "layout/page.blocks";
 
 // Component
 // -----------------------------------------------------------------------------
@@ -57,3 +58,4 @@
 @import "block/block";
 @import "content/node.page";
 @import "content/node.article";
+@import "field/field.keywords";

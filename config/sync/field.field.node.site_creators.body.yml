@@ -1,0 +1,22 @@
+uuid: 51b95075-f5cb-4b62-aa99-ed9fde1d555a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.site_creators
+  module:
+    - text
+id: node.site_creators.body
+field_name: body
+entity_type: node
+bundle: site_creators
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

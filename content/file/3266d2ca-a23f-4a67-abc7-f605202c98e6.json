@@ -1,25 +1,25 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/blog.ddev.local\/sites\/default\/files\/2019-06\/avengers-endgame-poster-top-half_0.jpg"
+            "href": "http:\/\/probando-blog.ddev.local\/sites\/default\/files\/media-icons\/generic\/no-thumbnail.png"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
         },
         "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
             {
-                "href": "http:\/\/blog.ddev.local\/user\/3?_format=hal_json"
+                "href": "http:\/\/probando-blog.ddev.local\/user\/1?_format=hal_json"
             }
         ]
     },
     "fid": [
         {
-            "value": 10
+            "value": 1
         }
     ],
     "uuid": [
         {
-            "value": "a4f93c64-94de-4062-9a03-43654637c7c8"
+            "value": "3266d2ca-a23f-4a67-abc7-f605202c98e6"
         }
     ],
     "langcode": [
@@ -32,7 +32,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/blog.ddev.local\/user\/3?_format=hal_json"
+                        "href": "http:\/\/probando-blog.ddev.local\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -40,7 +40,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "f9b62b8d-7698-475d-b1d5-ceedf075de96"
+                        "value": "eb43be22-1dfc-4e67-9a05-909a4a02728f"
                     }
                 ]
             }
@@ -48,23 +48,23 @@
     },
     "filename": [
         {
-            "value": "avengers-endgame-poster-top-half_0.jpg"
+            "value": "no-thumbnail.png"
         }
     ],
     "uri": [
         {
-            "value": "public:\/\/2019-06\/avengers-endgame-poster-top-half_0.jpg",
-            "url": "\/sites\/default\/files\/2019-06\/avengers-endgame-poster-top-half_0.jpg"
+            "value": "public:\/\/media-icons\/generic\/no-thumbnail.png",
+            "url": "\/sites\/default\/files\/media-icons\/generic\/no-thumbnail.png"
         }
     ],
     "filemime": [
         {
-            "value": "image\/jpeg"
+            "value": "image\/png"
         }
     ],
     "filesize": [
         {
-            "value": 362242
+            "value": 7318
         }
     ],
     "status": [
@@ -74,13 +74,13 @@
     ],
     "created": [
         {
-            "value": "2019-06-15T21:55:00+00:00",
+            "value": "2019-06-16T21:29:38+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2019-06-15T21:55:09+00:00",
+            "value": "2019-06-16T21:29:38+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ]

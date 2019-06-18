@@ -1,0 +1,39 @@
+uuid: 15e9efdf-5145-4828-a6e7-259555b187dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.site_creators.body
+    - field.field.node.site_creators.field_name
+    - field.field.node.site_creators.field_pic
+    - image.style.thumbnail
+    - node.type.site_creators
+  module:
+    - media
+    - text
+    - user
+id: node.site_creators.teaser
+targetEntityType: node
+bundle: site_creators
+mode: teaser
+content:
+  field_name:
+    type: text_default
+    weight: 1
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_pic:
+    type: media_thumbnail
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    third_party_settings: {  }
+hidden:
+  body: true
+  links: true

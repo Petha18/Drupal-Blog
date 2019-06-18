@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/blog.ddev.local\/user\/0?_format=hal_json"
+            "href": "http:\/\/probando-blog.ddev.local\/user\/1?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -9,12 +9,12 @@
     },
     "uid": [
         {
-            "value": 0
+            "value": 1
         }
     ],
     "uuid": [
         {
-            "value": "bdfb56d1-bbea-4e2e-aac6-de0f919a8be5"
+            "value": "eb43be22-1dfc-4e67-9a05-909a4a02728f"
         }
     ],
     "langcode": [
@@ -30,37 +30,57 @@
     ],
     "name": [
         {
-            "value": ""
+            "value": "admin"
+        }
+    ],
+    "mail": [
+        {
+            "value": "admin@example.com"
+        }
+    ],
+    "timezone": [
+        {
+            "value": "America\/Denver"
         }
     ],
     "status": [
         {
-            "value": false
+            "value": true
         }
     ],
     "created": [
         {
-            "value": "2019-06-14T21:03:50+00:00",
+            "value": "2019-06-16T21:15:27+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2019-06-14T21:03:50+00:00",
+            "value": "2019-06-16T21:49:09+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "access": [
         {
-            "value": "1970-01-01T00:00:00+00:00",
+            "value": "2019-06-18T05:10:31+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "login": [
         {
-            "value": "1970-01-01T00:00:00+00:00",
+            "value": "2019-06-16T21:43:37+00:00",
             "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "init": [
+        {
+            "value": "admin@example.com"
+        }
+    ],
+    "roles": [
+        {
+            "target_id": "admin"
         }
     ],
     "default_langcode": [

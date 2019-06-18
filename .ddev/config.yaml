@@ -1,5 +1,5 @@
 APIVersion: v1.6.0
-name: blog
+name: probando-blog
 type: drupal8
 docroot: web
 php_version: "7.1"

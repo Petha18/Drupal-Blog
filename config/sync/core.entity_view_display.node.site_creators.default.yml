@@ -1,0 +1,38 @@
+uuid: 16cfe803-78f0-448b-bd7b-9474cc22c376
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.site_creators.body
+    - field.field.node.site_creators.field_name
+    - field.field.node.site_creators.field_pic
+    - image.style.medium
+    - node.type.site_creators
+  module:
+    - media
+    - text
+    - user
+id: node.site_creators.default
+targetEntityType: node
+bundle: site_creators
+mode: default
+content:
+  field_name:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_pic:
+    type: media_thumbnail
+    weight: 0
+    label: hidden
+    settings:
+      image_style: medium
+      image_link: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  body: true
+  links: true

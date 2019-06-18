@@ -1,25 +1,25 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/blog.ddev.local\/sites\/default\/files\/2019-06\/1418720113_697053-drupal-512.png"
+            "href": "http:\/\/probando-blog.ddev.local\/sites\/default\/files\/2019-06\/cyberpunk-2077.png"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
         },
         "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
             {
-                "href": "http:\/\/blog.ddev.local\/user\/1?_format=hal_json"
+                "href": "http:\/\/probando-blog.ddev.local\/user\/1?_format=hal_json"
             }
         ]
     },
     "fid": [
         {
-            "value": 7
+            "value": 3
         }
     ],
     "uuid": [
         {
-            "value": "48b09f45-20c6-43f0-9522-c2e0716c2631"
+            "value": "2081d751-984c-48f9-929a-e45da4091143"
         }
     ],
     "langcode": [
@@ -32,7 +32,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/blog.ddev.local\/user\/1?_format=hal_json"
+                        "href": "http:\/\/probando-blog.ddev.local\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -40,7 +40,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "216ef07f-cd0a-4de4-b495-a63cc02d1864"
+                        "value": "eb43be22-1dfc-4e67-9a05-909a4a02728f"
                     }
                 ]
             }
@@ -48,13 +48,13 @@
     },
     "filename": [
         {
-            "value": "1418720113_697053-drupal-512.png"
+            "value": "cyberpunk-2077.png"
         }
     ],
     "uri": [
         {
-            "value": "public:\/\/2019-06\/1418720113_697053-drupal-512.png",
-            "url": "\/sites\/default\/files\/2019-06\/1418720113_697053-drupal-512.png"
+            "value": "public:\/\/2019-06\/cyberpunk-2077.png",
+            "url": "\/sites\/default\/files\/2019-06\/cyberpunk-2077.png"
         }
     ],
     "filemime": [
@@ -64,7 +64,7 @@
     ],
     "filesize": [
         {
-            "value": 21008
+            "value": 905444
         }
     ],
     "status": [
@@ -74,13 +74,13 @@
     ],
     "created": [
         {
-            "value": "2019-06-15T21:38:38+00:00",
+            "value": "2019-06-18T04:26:27+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2019-06-15T21:38:51+00:00",
+            "value": "2019-06-18T04:27:04+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ]

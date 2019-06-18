@@ -1,0 +1,35 @@
+{#
+/**
+ * @file
+ * Template for a comment.
+ */
+#}
+<article{{ attributes.addClass('js-comment', 'mb-4') }}>
+  {#
+    Hide the "new" indicator by default, let a piece of JavaScript ask the
+    server which comments are new for the user. Rendering the final "new"
+    indicator here would break the render cache.
+  #}
+
+  <div class="row">
+    <div class="col-md-12">
+      <div{{ content_attributes.addClass('card-custom') }}>
+        <div class="card-header-custom d-flex justify-content-between">
+          <span>{{ submitted }}</span>
+          {{ permalink }}
+        </div>
+
+        <div class="card-body-custom">
+          {% if title %}
+            {{ title_prefix }}
+            <h3{{ title_attributes.addClass('') }}>{{ title }}</h3>
+            {{ title_suffix }}
+          {% endif %}
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</article>

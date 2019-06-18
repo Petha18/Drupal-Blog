@@ -1,26 +1,20 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/blog.ddev.local\/media\/9\/edit?_format=hal_json"
+            "href": "http:\/\/probando-blog.ddev.local\/media\/9\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
         },
         "http:\/\/drupal.org\/rest\/relation\/media\/image\/uid": [
             {
-                "href": "http:\/\/blog.ddev.local\/user\/3?_format=hal_json",
+                "href": "http:\/\/probando-blog.ddev.local\/user\/3?_format=hal_json",
                 "lang": "en"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/media\/image\/thumbnail": [
             {
-                "href": "http:\/\/blog.ddev.local\/sites\/default\/files\/2019-06\/avengers-endgame-poster-top-half_0.jpg",
-                "lang": "en"
-            }
-        ],
-        "http:\/\/drupal.org\/rest\/relation\/media\/image\/field_media_image": [
-            {
-                "href": "http:\/\/blog.ddev.local\/sites\/default\/files\/2019-06\/avengers-endgame-poster-top-half_0.jpg",
+                "href": "http:\/\/probando-blog.ddev.local\/sites\/default\/files\/media-icons\/generic\/no-thumbnail.png",
                 "lang": "en"
             }
         ]
@@ -53,7 +47,7 @@
     ],
     "revision_created": [
         {
-            "value": "2019-06-15T21:55:09+00:00",
+            "value": "2019-06-16T21:29:38+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -68,7 +62,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/blog.ddev.local\/user\/3?_format=hal_json"
+                        "href": "http:\/\/probando-blog.ddev.local\/user\/3?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -86,7 +80,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/blog.ddev.local\/sites\/default\/files\/2019-06\/avengers-endgame-poster-top-half_0.jpg"
+                        "href": "http:\/\/probando-blog.ddev.local\/sites\/default\/files\/media-icons\/generic\/no-thumbnail.png"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
@@ -94,25 +88,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "a4f93c64-94de-4062-9a03-43654637c7c8"
-                    }
-                ],
-                "lang": "en"
-            }
-        ],
-        "http:\/\/drupal.org\/rest\/relation\/media\/image\/field_media_image": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "http:\/\/blog.ddev.local\/sites\/default\/files\/2019-06\/avengers-endgame-poster-top-half_0.jpg"
-                    },
-                    "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "a4f93c64-94de-4062-9a03-43654637c7c8"
+                        "value": "3266d2ca-a23f-4a67-abc7-f605202c98e6"
                     }
                 ],
                 "lang": "en"

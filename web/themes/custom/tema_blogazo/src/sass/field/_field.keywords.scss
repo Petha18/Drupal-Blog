@@ -1,0 +1,65 @@
+.keywordlist{
+padding-left:0px;
+	li{
+	display:inline-block;
+	background-color:$celeste_blog;
+	color:white;
+	margin-right: 1em;
+    padding: 10px 15px 0px;
+    font-size: 10pt;
+    border-radius:4px;
+	}
+}
+
+.image__field-media-image{
+	margin-bottom:10%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.post__body{
+	font-family: "Montserrat",sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 2rem;
+	color: #212529;
+	text-align: left;
+	padding-top: 2.5rem;
+	border-top: solid 1px;
+	border-bottom: solid 1px gray;
+	padding-bottom: 2.5rem;
+	margin-bottom: 1rem;
+}
+
+.post-comments{
+	font-family: "Montserrat",sans-serif;
+}
+
+.card-custom{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 1px solid $celeste_blog;
+	border-radius: 0.25rem;
+}
+
+.card-header-custom{
+	padding: 0.75rem 1.25rem;
+	margin-bottom: 0;
+	background-color: $azul_blog;
+	border-bottom: 1px solid $celeste_blog;
+	color:white;
+}
+
+.card-body-custom{
+	flex: 1 1 auto;
+	padding: 1.25rem;
+	background-color:white;
+}
+
+.basic-page__body{
+	margin-bottom:2rem;
+}

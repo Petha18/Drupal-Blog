@@ -1,0 +1,15 @@
+{#
+/**
+ * @file
+ * Default template for a field key words
+ */
+#}
+{% if multiple %}
+<div class="">
+  <ul class="keywordlist">
+  {% for item in items %}
+  <li class="">{{ item.content }}</li>
+  {% endfor %}
+  </ul>
+</div>
+{% endif %}

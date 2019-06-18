@@ -5,9 +5,6 @@
     background-color: $azul_blog !important;
     padding: 2em;
     .nav-item{
-        .dropdown-toggle{
-            color:$white;
-        }
         .dropdown-menu{
             background-color: $celeste_blog; 
             .dropdown-item:hover{
@@ -26,8 +23,12 @@
     }
 }
 
+.navbar-brand{
+    color: $white !important;
+}
+
 .branding-info{
-    color: $white;
+    color: $white !important;
 }
 
 .post--teaser:hover{
@@ -65,6 +66,10 @@
     .post_img{
         filter:brightness(0.4);
     }
+}
+
+.navbar > .container, .navbar > .container-fluid{
+    display: flow-root !important;
 }
 
 footer{
