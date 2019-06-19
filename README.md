@@ -24,6 +24,10 @@ After cloning/forking this project you should do the following:
   - `ddev exec drush dcdi`
 
 
+  Nota:
+  En caso de no exportar las imagenes, el sitio mostrara imagenes por defecto en los teaser del contenido de tipo post
+
+
 ## What does the template do?
 
 When installing the given `composer.json` some tasks are taken care of:
