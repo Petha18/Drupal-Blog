@@ -14,7 +14,7 @@ $rojo: #ca1a1b !default;
 background-color: $azul-oscuro;
     margin-top:1em;
 	padding: 1.5em;
-    width: 22rem;
+    width: auto;
 
     border: solid;
     border-radius:1em;
@@ -40,6 +40,10 @@ background-color: $azul-oscuro;
      border-radius:1.5em;
      a{
      	color: $azul-oscuro!important;
+     	text-decoration:none;
+     }
+     a:hover{
+     
      }
 	}
 }
@@ -47,7 +51,7 @@ background-color: $azul-oscuro;
 .block--views-block--author-info-block-1-2{//2.Bloque Author Info
 background-color: $azul-oscuro;
 	padding: 1.5em;
-    width: 22rem;
+    width: auto;
 
     border: solid;
     border-radius:1em;
@@ -80,7 +84,7 @@ background-color: $azul-oscuro;
 .block--views-block--last-posts-of-category-block-1-2{//3. Bloque Last post 0f category
 	background-color: $azul-oscuro;
 	padding: 1.5em;
-    width: 22rem;
+    width: auto;
 
     border: solid;
     border-radius:1em;
@@ -114,9 +118,9 @@ background-color: $azul-oscuro;
 
 .block--views-block--related-posts-block-1-2{// 4 bloque de related-posts
 	margin-top:1em;
-background-color: $azul-oscuro;
+    background-color: $azul-oscuro;
 	padding: 1.5em;
-    width: 22rem;
+    width: auto;
 
     border: solid;
     border-radius:1em;
@@ -134,6 +138,7 @@ background-color: $azul-oscuro;
 		.field-content{
 			a{
 				color:$white !important;
+				text-decoration:none;
 			}
 		}
 	}
@@ -142,6 +147,7 @@ background-color: $azul-oscuro;
      border-radius:1.5em;
      a{
      	color: $azul-oscuro!important;
+     	text-decoration:none;
      }
 	}
 }
@@ -149,7 +155,7 @@ background-color: $azul-oscuro;
 .block--views-block--last-posts-block-1-2{// 5. Bloque de last posts
 background-color: $azul-oscuro;
 	padding: 1.5em;
-    width: 22rem;
+    width: auto;
 
     border: solid;
     border-radius:1em;
@@ -182,7 +188,7 @@ background-color: $azul-oscuro;
 .block--views-block--category-list-block-1-2{// 6. Bloque category list
     background-color: $azul-oscuro;
 	padding: 1.5em;
-    width: 22rem;
+    width: auto;
     margin-top: 1em;
     border: solid;
     border-radius:1em;
@@ -221,3 +227,5 @@ background-color: $azul-oscuro;
 .views-field-field-related-links{//1.Campo de related links // Bloque related links
 
 }
+
+

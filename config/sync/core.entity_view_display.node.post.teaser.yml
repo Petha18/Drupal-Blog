@@ -10,7 +10,7 @@ dependencies:
     - field.field.node.post.field_post_comments
     - field.field.node.post.field_post_image
     - field.field.node.post.field_related_links
-    - image.style.medium
+    - image.style.large
     - node.type.post
   module:
     - media
@@ -35,7 +35,7 @@ content:
     region: content
     label: hidden
     settings:
-      image_style: medium
+      image_style: large
       image_link: content
     third_party_settings: {  }
 hidden:
