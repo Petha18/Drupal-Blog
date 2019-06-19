@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/probando-blog.ddev.local\/media\/4\/edit?_format=hal_json"
+            "href": "http:\/\/probando-blog.ddev.local\/media\/2\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
@@ -14,24 +14,30 @@
         ],
         "http:\/\/drupal.org\/rest\/relation\/media\/image\/thumbnail": [
             {
-                "href": "http:\/\/probando-blog.ddev.local\/sites\/default\/files\/media-icons\/generic\/no-thumbnail.png",
+                "href": "http:\/\/probando-blog.ddev.local\/sites\/default\/files\/2019-06\/atypes.jpg",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/field_media_image": [
+            {
+                "href": "http:\/\/probando-blog.ddev.local\/sites\/default\/files\/2019-06\/atypes.jpg",
                 "lang": "en"
             }
         ]
     },
     "mid": [
         {
-            "value": 4
+            "value": 2
         }
     ],
     "uuid": [
         {
-            "value": "68f4cbce-99cb-4fa4-a3e5-bb1ef29871e2"
+            "value": "ddf2fd32-f4e9-446f-8daa-93b7f7929a37"
         }
     ],
     "vid": [
         {
-            "value": 4
+            "value": 2
         }
     ],
     "langcode": [
@@ -47,7 +53,7 @@
     ],
     "revision_created": [
         {
-            "value": "2019-06-16T21:29:38+00:00",
+            "value": "2019-06-19T05:17:34+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -70,7 +76,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "eb43be22-1dfc-4e67-9a05-909a4a02728f"
+                        "value": "cdafa549-7917-482b-b144-fd6d58485248"
                     }
                 ],
                 "lang": "en"
@@ -80,7 +86,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/probando-blog.ddev.local\/sites\/default\/files\/media-icons\/generic\/no-thumbnail.png"
+                        "href": "http:\/\/probando-blog.ddev.local\/sites\/default\/files\/2019-06\/atypes.jpg"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
@@ -88,7 +94,25 @@
                 },
                 "uuid": [
                     {
-                        "value": "3266d2ca-a23f-4a67-abc7-f605202c98e6"
+                        "value": "a96f892f-4c8c-4bc0-88f9-090f60fbf578"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/field_media_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/probando-blog.ddev.local\/sites\/default\/files\/2019-06\/atypes.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a96f892f-4c8c-4bc0-88f9-090f60fbf578"
                     }
                 ],
                 "lang": "en"
@@ -97,20 +121,20 @@
     },
     "name": [
         {
-            "value": "ani",
+            "value": "Animation1",
             "lang": "en"
         }
     ],
     "created": [
         {
-            "value": "2019-06-12T05:28:34+00:00",
+            "value": "2019-06-19T05:17:23+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2019-06-12T05:28:34+00:00",
+            "value": "2019-06-19T05:17:23+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }

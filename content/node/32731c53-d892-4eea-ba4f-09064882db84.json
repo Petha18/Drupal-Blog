@@ -1,0 +1,151 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/probando-blog.ddev.local\/node\/4?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/basic_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/basic_page\/revision_uid": [
+            {
+                "href": "http:\/\/probando-blog.ddev.local\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/basic_page\/uid": [
+            {
+                "href": "http:\/\/probando-blog.ddev.local\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 4
+        }
+    ],
+    "uuid": [
+        {
+            "value": "32731c53-d892-4eea-ba4f-09064882db84"
+        }
+    ],
+    "vid": [
+        {
+            "value": 5
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "basic_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-06-19T05:26:42+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/basic_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/probando-blog.ddev.local\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cdafa549-7917-482b-b144-fd6d58485248"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/basic_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/probando-blog.ddev.local\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cdafa549-7917-482b-b144-fd6d58485248"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "About us",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-19T05:26:15+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-19T05:26:42+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed massa id augue ultrices sollicitudin iaculis cursus eros. Quisque sodales consectetur pretium. Maecenas quis blandit turpis, ut molestie tellus. Nunc consectetur et elit sed porttitor. Suspendisse placerat, ex et commodo rutrum, nunc ligula elementum odio, eget pharetra diam ipsum eget odio. Fusce a tristique elit. Mauris eget justo sit amet risus commodo tincidunt eu in augue. Donec hendrerit eros quis augue dignissim, sit amet tincidunt sem commodo. Morbi ac sem semper, laoreet tortor ut, consequat odio. Aliquam erat volutpat. Mauris sed mi a sem placerat ultrices. Suspendisse finibus diam vel sodales placerat.<\/p>\r\n\r\n<p>Nunc at facilisis enim. Aenean iaculis pharetra arcu a lacinia. Ut commodo, velit a fermentum ultricies, nunc nibh pellentesque est, a mattis mauris ex porta arcu. Etiam eget magna magna. Morbi pellentesque non nisi at molestie. In sodales faucibus risus a molestie. Morbi at sem ex.<\/p>\r\n\r\n<p>Sed sollicitudin erat non ornare faucibus. Aenean varius luctus diam vitae dictum. Fusce ultrices metus maximus dapibus accumsan. Nunc non leo nec quam varius vestibulum vel at dui. Aenean vitae dui vel lorem lacinia cursus interdum et arcu. Nulla lacinia efficitur fermentum. Aenean accumsan nunc nec luctus ullamcorper. Nunc sed magna nulla. Proin sagittis metus eget suscipit accumsan.<\/p>\r\n\r\n<p>Curabitur vitae rhoncus eros, a ultricies tellus. Morbi consectetur, enim rhoncus pulvinar efficitur, augue turpis sagittis urna, non mattis nibh ipsum at lorem. Ut dapibus placerat risus, ac tristique ligula consequat a. Duis sollicitudin felis libero, vitae finibus risus ornare vitae. Donec efficitur metus in leo facilisis, vel consequat augue ultrices. Duis molestie gravida maximus. Integer eu gravida elit. Quisque eu vulputate nisl. Maecenas laoreet orci sit amet varius mollis. Sed vitae vehicula libero. Maecenas id feugiat eros, ornare vulputate nisi. Etiam at pulvinar dui. Ut aliquam dui non justo gravida viverra. Duis eget ipsum est. Fusce dui ex, varius vel arcu vel, dictum venenatis lorem.<\/p>\r\n\r\n<p>Morbi ut bibendum dui. Duis consequat eros eu arcu mollis, vel efficitur mauris auctor. Aenean ac consequat felis. Proin eget gravida dui, ac sodales odio. Duis ac nunc non lectus hendrerit commodo in nec libero. Curabitur rhoncus aliquam fermentum. Suspendisse eleifend quam vitae risus tempor, et sodales velit ultricies. Quisque non nunc eleifend nulla consequat sollicitudin in vel sapien. Donec maximus, massa sed laoreet mollis, nulla libero bibendum dolor, eget efficitur mi ante sed lacus. Sed eget ipsum tellus. Sed dignissim lectus quis purus convallis, nec volutpat purus finibus. Nulla facilisi. Nunc et mi sollicitudin, dictum nisl non, placerat massa.<\/p>\r\n",
+            "format": "plain_text",
+            "processed": "<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed massa id augue ultrices sollicitudin iaculis cursus eros. Quisque sodales consectetur pretium. Maecenas quis blandit turpis, ut molestie tellus. Nunc consectetur et elit sed porttitor. Suspendisse placerat, ex et commodo rutrum, nunc ligula elementum odio, eget pharetra diam ipsum eget odio. Fusce a tristique elit. Mauris eget justo sit amet risus commodo tincidunt eu in augue. Donec hendrerit eros quis augue dignissim, sit amet tincidunt sem commodo. Morbi ac sem semper, laoreet tortor ut, consequat odio. Aliquam erat volutpat. Mauris sed mi a sem placerat ultrices. Suspendisse finibus diam vel sodales placerat.<\/p>\n<p>Nunc at facilisis enim. Aenean iaculis pharetra arcu a lacinia. Ut commodo, velit a fermentum ultricies, nunc nibh pellentesque est, a mattis mauris ex porta arcu. Etiam eget magna magna. Morbi pellentesque non nisi at molestie. In sodales faucibus risus a molestie. Morbi at sem ex.<\/p>\n<p>Sed sollicitudin erat non ornare faucibus. Aenean varius luctus diam vitae dictum. Fusce ultrices metus maximus dapibus accumsan. Nunc non leo nec quam varius vestibulum vel at dui. Aenean vitae dui vel lorem lacinia cursus interdum et arcu. Nulla lacinia efficitur fermentum. Aenean accumsan nunc nec luctus ullamcorper. Nunc sed magna nulla. Proin sagittis metus eget suscipit accumsan.<\/p>\n<p>Curabitur vitae rhoncus eros, a ultricies tellus. Morbi consectetur, enim rhoncus pulvinar efficitur, augue turpis sagittis urna, non mattis nibh ipsum at lorem. Ut dapibus placerat risus, ac tristique ligula consequat a. Duis sollicitudin felis libero, vitae finibus risus ornare vitae. Donec efficitur metus in leo facilisis, vel consequat augue ultrices. Duis molestie gravida maximus. Integer eu gravida elit. Quisque eu vulputate nisl. Maecenas laoreet orci sit amet varius mollis. Sed vitae vehicula libero. Maecenas id feugiat eros, ornare vulputate nisi. Etiam at pulvinar dui. Ut aliquam dui non justo gravida viverra. Duis eget ipsum est. Fusce dui ex, varius vel arcu vel, dictum venenatis lorem.<\/p>\n<p>Morbi ut bibendum dui. Duis consequat eros eu arcu mollis, vel efficitur mauris auctor. Aenean ac consequat felis. Proin eget gravida dui, ac sodales odio. Duis ac nunc non lectus hendrerit commodo in nec libero. Curabitur rhoncus aliquam fermentum. Suspendisse eleifend quam vitae risus tempor, et sodales velit ultricies. Quisque non nunc eleifend nulla consequat sollicitudin in vel sapien. Donec maximus, massa sed laoreet mollis, nulla libero bibendum dolor, eget efficitur mi ante sed lacus. Sed eget ipsum tellus. Sed dignissim lectus quis purus convallis, nec volutpat purus finibus. Nulla facilisi. Nunc et mi sollicitudin, dictum nisl non, placerat massa.<\/p>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

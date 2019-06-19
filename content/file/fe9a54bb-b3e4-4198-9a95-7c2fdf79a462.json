@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/probando-blog.ddev.local\/sites\/default\/files\/2019-06\/nin1.png"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/probando-blog.ddev.local\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "fe9a54bb-b3e4-4198-9a95-7c2fdf79a462"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/probando-blog.ddev.local\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cdafa549-7917-482b-b144-fd6d58485248"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "nin1.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2019-06\/nin1.png",
+            "url": "\/sites\/default\/files\/2019-06\/nin1.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 199104
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-19T05:04:40+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-19T05:04:59+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

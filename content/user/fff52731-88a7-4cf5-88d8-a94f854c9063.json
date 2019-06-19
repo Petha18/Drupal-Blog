@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/probando-blog.ddev.local\/user\/2?_format=hal_json"
+            "href": "http:\/\/probando-blog.ddev.local\/user\/0?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -9,12 +9,12 @@
     },
     "uid": [
         {
-            "value": 2
+            "value": 0
         }
     ],
     "uuid": [
         {
-            "value": "479223a4-c1c5-411c-ac5d-d46213f160c6"
+            "value": "fff52731-88a7-4cf5-88d8-a94f854c9063"
         }
     ],
     "langcode": [
@@ -28,40 +28,25 @@
             "value": "en"
         }
     ],
-    "preferred_admin_langcode": [
-        {
-            "value": "en"
-        }
-    ],
     "name": [
         {
-            "value": "petha"
-        }
-    ],
-    "mail": [
-        {
-            "value": "lalo@gmail.com"
-        }
-    ],
-    "timezone": [
-        {
-            "value": "America\/Denver"
+            "value": ""
         }
     ],
     "status": [
         {
-            "value": true
+            "value": false
         }
     ],
     "created": [
         {
-            "value": "2019-06-12T04:23:11+00:00",
+            "value": "2019-06-19T04:40:04+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2019-06-12T04:23:11+00:00",
+            "value": "2019-06-19T04:40:04+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -78,27 +63,10 @@
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
-    "init": [
-        {
-            "value": "lalo@gmail.com"
-        }
-    ],
-    "roles": [
-        {
-            "target_id": "admin"
-        }
-    ],
     "default_langcode": [
         {
             "value": true,
             "lang": "en"
-        }
-    ],
-    "field_bio": [
-        {
-            "value": "A very good boy",
-            "format": "plain_text",
-            "processed": "<p>A very good boy<\/p>\n"
         }
     ]
 }

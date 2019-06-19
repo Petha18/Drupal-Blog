@@ -6,7 +6,7 @@ dependencies:
     - field.field.node.site_creators.body
     - field.field.node.site_creators.field_name
     - field.field.node.site_creators.field_pic
-    - image.style.medium
+    - image.style.large
     - node.type.site_creators
   module:
     - media
@@ -29,7 +29,7 @@ content:
     weight: 0
     label: hidden
     settings:
-      image_style: medium
+      image_style: large
       image_link: ''
     third_party_settings: {  }
     region: content

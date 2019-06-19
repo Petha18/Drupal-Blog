@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/probando-blog.ddev.local\/node\/5?_format=hal_json"
+            "href": "http:\/\/probando-blog.ddev.local\/node\/1?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/post"
@@ -24,23 +24,23 @@
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/post\/field_post_image": [
             {
-                "href": "http:\/\/probando-blog.ddev.local\/media\/3\/edit?_format=hal_json"
+                "href": "http:\/\/probando-blog.ddev.local\/media\/1\/edit?_format=hal_json"
             }
         ]
     },
     "nid": [
         {
-            "value": 5
+            "value": 1
         }
     ],
     "uuid": [
         {
-            "value": "88b06302-f604-47be-b805-8152cb04157a"
+            "value": "41086ccc-888e-4b52-a8bf-28c6fa3349a2"
         }
     ],
     "vid": [
         {
-            "value": 9
+            "value": 1
         }
     ],
     "langcode": [
@@ -56,7 +56,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2019-06-12T05:41:46+00:00",
+            "value": "2019-06-19T05:05:54+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -73,7 +73,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "eb43be22-1dfc-4e67-9a05-909a4a02728f"
+                        "value": "cdafa549-7917-482b-b144-fd6d58485248"
                     }
                 ]
             }
@@ -90,7 +90,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "eb43be22-1dfc-4e67-9a05-909a4a02728f"
+                        "value": "cdafa549-7917-482b-b144-fd6d58485248"
                     }
                 ],
                 "lang": "en"
@@ -108,7 +108,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "c084e500-c089-4640-8ea8-e03b5db585d4"
+                        "value": "bd797db0-e1f5-4f1f-9765-0e7303cc6de6"
                     }
                 ]
             }
@@ -117,7 +117,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/probando-blog.ddev.local\/media\/3\/edit?_format=hal_json"
+                        "href": "http:\/\/probando-blog.ddev.local\/media\/1\/edit?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
@@ -125,7 +125,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "d1c364e5-71ff-4369-ba21-a250bf765d27"
+                        "value": "5310b0bf-b841-41d2-a2bd-3552dbd85cad"
                     }
                 ]
             }
@@ -139,20 +139,20 @@
     ],
     "title": [
         {
-            "value": "E3 2019 - Nuevo tr\u00e1iler y fecha de lanzamiento de Cyberpunk 2077 ",
+            "value": "Nintendo debutes on E3 2019",
             "lang": "en"
         }
     ],
     "created": [
         {
-            "value": "2019-06-12T05:31:54+00:00",
+            "value": "2019-06-19T05:05:03+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2019-06-12T05:41:46+00:00",
+            "value": "2019-06-19T05:05:54+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -191,35 +191,40 @@
     ],
     "body": [
         {
-            "value": "La conferencia de Microsoft en el E3 2019 nos ha dejado uno de los anuncios m\u00e1s grandes en lo que llevamos de feria: la fecha de lanzamiento de Cyberpunk 2077. El action RPG de CD Projekt RED, responsables de The Witcher 3, se lanza para PS4, Xbox One y PC el pr\u00f3ximo 16 de abril de 2020. Para acompa\u00f1ar a un anuncio tan esperado, tambi\u00e9n han lanzado un nuevo tr\u00e1iler de Cyberpunk 2077 que pod\u00e9is ver a continuaci\u00f3n. \u00a1Con el mism\u00edsimo John Wic... Keanu Reeves!",
+            "value": "<p>La conferencia <strong>Nintendo Direct<\/strong> del <a href=\"https:\/\/www.xataka.com\/tag\/e3-2019\">E3 2019<\/a> ha estado centrada principalmente en juegos para la Nintendo Switch y <a href=\"https:\/\/www.xataka.com\/videojuegos\/nintendo-confirma-que-no-veremos-nueva-switch-durante-e3-anuncia-que-mario-kart-tour-llegara-a-android-mayo\">como ya nos confirmaron<\/a> no ha habido ninguna nueva informaci\u00f3n sobre la futura generaci\u00f3n de consolas de la marca. Estas han sido todas las novedades y los tr\u00e1ilers que nos ha dejado la presentaci\u00f3n de Nintendo, aunque m\u00e1s all\u00e1 de los futuros juegos que est\u00e1n por llegar, ha habido un personaje que se ha llevado al final toda nuestra atenci\u00f3n.<\/p>\r\n\r\n<p>Nintendo ha anunciado dos nuevos personajes para 'Super Smash Bros. Ultimate' en su conferencia del E3 2019. Y en este nuevo DLC aparecer\u00e1n los h\u00e9roes de 'Dragon Quest XI Echoes of Elusive Age' y... <strong>\u00a1Banjo Kazooie!<\/strong><\/p>\r\n",
             "format": "plain_text",
-            "processed": "<p>La conferencia de Microsoft en el E3 2019 nos ha dejado uno de los anuncios m\u00e1s grandes en lo que llevamos de feria: la fecha de lanzamiento de Cyberpunk 2077. El action RPG de CD Projekt RED, responsables de The Witcher 3, se lanza para PS4, Xbox One y PC el pr\u00f3ximo 16 de abril de 2020. Para acompa\u00f1ar a un anuncio tan esperado, tambi\u00e9n han lanzado un nuevo tr\u00e1iler de Cyberpunk 2077 que pod\u00e9is ver a continuaci\u00f3n. \u00a1Con el mism\u00edsimo John Wic... Keanu Reeves!<\/p>\n",
+            "processed": "<p>La conferencia <strong>Nintendo Direct<\/strong> del <a href=\"https:\/\/www.xataka.com\/tag\/e3-2019\">E3 2019<\/a> ha estado centrada principalmente en juegos para la Nintendo Switch y <a href=\"https:\/\/www.xataka.com\/videojuegos\/nintendo-confirma-que-no-veremos-nueva-switch-durante-e3-anuncia-que-mario-kart-tour-llegara-a-android-mayo\">como ya nos confirmaron<\/a> no ha habido ninguna nueva informaci\u00f3n sobre la futura generaci\u00f3n de consolas de la marca. Estas han sido todas las novedades y los tr\u00e1ilers que nos ha dejado la presentaci\u00f3n de Nintendo, aunque m\u00e1s all\u00e1 de los futuros juegos que est\u00e1n por llegar, ha habido un personaje que se ha llevado al final toda nuestra atenci\u00f3n.<\/p>\n<p>Nintendo ha anunciado dos nuevos personajes para 'Super Smash Bros. Ultimate' en su conferencia del E3 2019. Y en este nuevo DLC aparecer\u00e1n los h\u00e9roes de 'Dragon Quest XI Echoes of Elusive Age' y... <strong>\u00a1Banjo Kazooie!<\/strong><\/p>\n",
             "summary": "",
             "lang": "en"
         }
     ],
     "field_key_words": [
         {
-            "value": "Console Game",
+            "value": "Banjo Kasooie",
             "format": "plain_text",
-            "processed": "<p>Console Game<\/p>\n"
+            "processed": "<p>Banjo Kasooie<\/p>\n"
         },
         {
-            "value": "Keanu Reeves",
+            "value": "Nintendo",
             "format": "plain_text",
-            "processed": "<p>Keanu Reeves<\/p>\n"
+            "processed": "<p>Nintendo<\/p>\n"
         },
         {
-            "value": "Ciberpunk 2077",
+            "value": "E3",
             "format": "plain_text",
-            "processed": "<p>Ciberpunk 2077<\/p>\n"
+            "processed": "<p>E3<\/p>\n"
+        },
+        {
+            "value": "Smash Bros",
+            "format": "plain_text",
+            "processed": "<p>Smash Bros<\/p>\n"
         }
     ],
     "field_post_comments": [
         {
             "status": 2,
             "cid": 0,
-            "last_comment_timestamp": 1560318106,
+            "last_comment_timestamp": 1560920754,
             "last_comment_name": null,
             "last_comment_uid": 1,
             "comment_count": 0
@@ -227,8 +232,8 @@
     ],
     "field_related_links": [
         {
-            "uri": "https:\/\/www.hobbyconsolas.com\/reportajes\/e3-2018-impresiones-cyberpunk-2077-ps4-xbox-one-pc-262939",
-            "title": "Impresiones del juego",
+            "uri": "https:\/\/youtu.be\/BLSE9x6FNaw",
+            "title": "https:\/\/youtu.be\/LHwhTv-LdPY",
             "options": []
         }
     ]

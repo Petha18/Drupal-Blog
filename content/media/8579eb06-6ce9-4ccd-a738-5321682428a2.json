@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/probando-blog.ddev.local\/media\/10\/edit?_format=hal_json"
+            "href": "http:\/\/probando-blog.ddev.local\/media\/3\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
@@ -14,30 +14,30 @@
         ],
         "http:\/\/drupal.org\/rest\/relation\/media\/image\/thumbnail": [
             {
-                "href": "http:\/\/probando-blog.ddev.local\/sites\/default\/files\/2019-06\/cyberpunk-2077.png",
+                "href": "http:\/\/probando-blog.ddev.local\/sites\/default\/files\/2019-06\/webd.jpg",
                 "lang": "en"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/media\/image\/field_media_image": [
             {
-                "href": "http:\/\/probando-blog.ddev.local\/sites\/default\/files\/2019-06\/cyberpunk-2077.png",
+                "href": "http:\/\/probando-blog.ddev.local\/sites\/default\/files\/2019-06\/webd.jpg",
                 "lang": "en"
             }
         ]
     },
     "mid": [
         {
-            "value": 10
+            "value": 3
         }
     ],
     "uuid": [
         {
-            "value": "066adde8-0e4b-48b6-86fa-a57e92512626"
+            "value": "8579eb06-6ce9-4ccd-a738-5321682428a2"
         }
     ],
     "vid": [
         {
-            "value": 10
+            "value": 3
         }
     ],
     "langcode": [
@@ -53,7 +53,7 @@
     ],
     "revision_created": [
         {
-            "value": "2019-06-18T04:27:04+00:00",
+            "value": "2019-06-19T05:21:47+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -76,7 +76,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "eb43be22-1dfc-4e67-9a05-909a4a02728f"
+                        "value": "cdafa549-7917-482b-b144-fd6d58485248"
                     }
                 ],
                 "lang": "en"
@@ -86,7 +86,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/probando-blog.ddev.local\/sites\/default\/files\/2019-06\/cyberpunk-2077.png"
+                        "href": "http:\/\/probando-blog.ddev.local\/sites\/default\/files\/2019-06\/webd.jpg"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
@@ -94,7 +94,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "2081d751-984c-48f9-929a-e45da4091143"
+                        "value": "473923ed-1adc-48d8-8a3c-d6d7d34cd8c3"
                     }
                 ],
                 "lang": "en"
@@ -104,7 +104,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/probando-blog.ddev.local\/sites\/default\/files\/2019-06\/cyberpunk-2077.png"
+                        "href": "http:\/\/probando-blog.ddev.local\/sites\/default\/files\/2019-06\/webd.jpg"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
@@ -112,7 +112,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "2081d751-984c-48f9-929a-e45da4091143"
+                        "value": "473923ed-1adc-48d8-8a3c-d6d7d34cd8c3"
                     }
                 ],
                 "lang": "en"
@@ -121,20 +121,20 @@
     },
     "name": [
         {
-            "value": "la ver",
+            "value": "WebD",
             "lang": "en"
         }
     ],
     "created": [
         {
-            "value": "2019-06-18T04:26:27+00:00",
+            "value": "2019-06-19T05:21:34+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2019-06-18T04:26:27+00:00",
+            "value": "2019-06-19T05:21:34+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }

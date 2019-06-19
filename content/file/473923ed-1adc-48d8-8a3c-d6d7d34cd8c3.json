@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/probando-blog.ddev.local\/sites\/default\/files\/2019-06\/nin1.png"
+            "href": "http:\/\/probando-blog.ddev.local\/sites\/default\/files\/2019-06\/webd.jpg"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
@@ -14,12 +14,12 @@
     },
     "fid": [
         {
-            "value": 2
+            "value": 3
         }
     ],
     "uuid": [
         {
-            "value": "f604bc59-bfe5-475a-96d3-d335137f82b4"
+            "value": "473923ed-1adc-48d8-8a3c-d6d7d34cd8c3"
         }
     ],
     "langcode": [
@@ -40,7 +40,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "eb43be22-1dfc-4e67-9a05-909a4a02728f"
+                        "value": "cdafa549-7917-482b-b144-fd6d58485248"
                     }
                 ]
             }
@@ -48,23 +48,23 @@
     },
     "filename": [
         {
-            "value": "nin1.png"
+            "value": "webd.jpg"
         }
     ],
     "uri": [
         {
-            "value": "public:\/\/2019-06\/nin1.png",
-            "url": "\/sites\/default\/files\/2019-06\/nin1.png"
+            "value": "public:\/\/2019-06\/webd.jpg",
+            "url": "\/sites\/default\/files\/2019-06\/webd.jpg"
         }
     ],
     "filemime": [
         {
-            "value": "image\/png"
+            "value": "image\/jpeg"
         }
     ],
     "filesize": [
         {
-            "value": 199104
+            "value": 194647
         }
     ],
     "status": [
@@ -74,13 +74,13 @@
     ],
     "created": [
         {
-            "value": "2019-06-17T02:07:00+00:00",
+            "value": "2019-06-19T05:21:34+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2019-06-17T02:07:16+00:00",
+            "value": "2019-06-19T05:21:47+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ]

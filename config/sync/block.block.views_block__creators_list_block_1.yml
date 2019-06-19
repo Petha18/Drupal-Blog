@@ -5,7 +5,7 @@ dependencies:
   config:
     - views.view.creators_list
   module:
-    - system
+    - node
     - views
   theme:
     - tema_blogazo
@@ -23,8 +23,10 @@ settings:
   views_label: 'Creators '
   items_per_page: none
 visibility:
-  request_path:
-    id: request_path
-    pages: /node/12
+  node_type:
+    id: node_type
+    bundles:
+      basic_page: basic_page
     negate: false
-    context_mapping: {  }
+    context_mapping:
+      node: '@node.node_route_context:node'

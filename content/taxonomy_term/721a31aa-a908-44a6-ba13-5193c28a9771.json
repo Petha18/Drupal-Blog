@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/probando-blog.ddev.local\/games?_format=hal_json"
+            "href": "http:\/\/probando-blog.ddev.local\/animation?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/category"
@@ -12,17 +12,17 @@
     },
     "tid": [
         {
-            "value": 1
+            "value": 2
         }
     ],
     "uuid": [
         {
-            "value": "c084e500-c089-4640-8ea8-e03b5db585d4"
+            "value": "721a31aa-a908-44a6-ba13-5193c28a9771"
         }
     ],
     "revision_id": [
         {
-            "value": 1
+            "value": 2
         }
     ],
     "langcode": [
@@ -38,7 +38,7 @@
     ],
     "revision_created": [
         {
-            "value": "2019-06-12T03:15:13+00:00",
+            "value": "2019-06-19T05:02:49+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -50,15 +50,15 @@
     ],
     "name": [
         {
-            "value": "Games",
+            "value": "Animation",
             "lang": "en"
         }
     ],
     "description": [
         {
-            "value": "<p>About gaming<\/p>\r\n",
+            "value": "<p>About animation<\/p>\r\n",
             "format": "plain_text",
-            "processed": "<p>About gaming<\/p>\n",
+            "processed": "<p>About animation<\/p>\n",
             "lang": "en"
         }
     ],
@@ -74,7 +74,7 @@
     },
     "changed": [
         {
-            "value": "2019-06-15T21:25:25+00:00",
+            "value": "2019-06-19T05:10:35+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -93,7 +93,7 @@
     ],
     "path": [
         {
-            "alias": "\/games",
+            "alias": "\/animation",
             "pid": 1,
             "langcode": "en",
             "lang": "en"

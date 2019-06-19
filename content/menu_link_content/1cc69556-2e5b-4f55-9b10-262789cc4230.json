@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/probando-blog.ddev.local\/admin\/structure\/menu\/item\/2\/edit?_format=hal_json"
+            "href": "http:\/\/probando-blog.ddev.local\/admin\/structure\/menu\/item\/1\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/menu_link_content\/menu_link_content"
@@ -9,17 +9,17 @@
     },
     "id": [
         {
-            "value": 2
+            "value": 1
         }
     ],
     "uuid": [
         {
-            "value": "faefd6f0-4182-46e3-8126-64851ef9d9ae"
+            "value": "1cc69556-2e5b-4f55-9b10-262789cc4230"
         }
     ],
     "revision_id": [
         {
-            "value": 2
+            "value": 1
         }
     ],
     "langcode": [
@@ -35,7 +35,7 @@
     ],
     "revision_created": [
         {
-            "value": "2019-06-14T21:18:41+00:00",
+            "value": "2019-06-19T05:12:43+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -46,7 +46,7 @@
     ],
     "title": [
         {
-            "value": "Animation",
+            "value": "Home",
             "lang": "en"
         }
     ],
@@ -57,7 +57,7 @@
     ],
     "link": [
         {
-            "uri": "internal:\/animation",
+            "uri": "internal:\/",
             "title": "",
             "options": []
         }
@@ -74,22 +74,17 @@
     ],
     "weight": [
         {
-            "value": 0
+            "value": -50
         }
     ],
     "expanded": [
         {
-            "value": true
-        }
-    ],
-    "parent": [
-        {
-            "value": "views_view:views.blog.page_1"
+            "value": false
         }
     ],
     "changed": [
         {
-            "value": "2019-06-15T21:26:57+00:00",
+            "value": "2019-06-19T05:14:56+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }

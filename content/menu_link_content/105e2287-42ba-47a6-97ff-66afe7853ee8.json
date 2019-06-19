@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/probando-blog.ddev.local\/admin\/structure\/menu\/item\/1\/edit?_format=hal_json"
+            "href": "http:\/\/probando-blog.ddev.local\/admin\/structure\/menu\/item\/3\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/menu_link_content\/menu_link_content"
@@ -9,17 +9,17 @@
     },
     "id": [
         {
-            "value": 1
+            "value": 3
         }
     ],
     "uuid": [
         {
-            "value": "c6a7abe4-abfc-4715-a20f-5eb80ec8d4c6"
+            "value": "105e2287-42ba-47a6-97ff-66afe7853ee8"
         }
     ],
     "revision_id": [
         {
-            "value": 1
+            "value": 3
         }
     ],
     "langcode": [
@@ -35,7 +35,7 @@
     ],
     "revision_created": [
         {
-            "value": "2019-06-14T21:11:34+00:00",
+            "value": "2019-06-19T05:13:44+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -46,7 +46,7 @@
     ],
     "title": [
         {
-            "value": "Home",
+            "value": "Games",
             "lang": "en"
         }
     ],
@@ -57,7 +57,7 @@
     ],
     "link": [
         {
-            "uri": "internal:\/",
+            "uri": "internal:\/games",
             "title": "",
             "options": []
         }
@@ -74,7 +74,7 @@
     ],
     "weight": [
         {
-            "value": -50
+            "value": 0
         }
     ],
     "expanded": [
@@ -82,9 +82,14 @@
             "value": false
         }
     ],
+    "parent": [
+        {
+            "value": "views_view:views.blog.page_1"
+        }
+    ],
     "changed": [
         {
-            "value": "2019-06-14T21:13:45+00:00",
+            "value": "2019-06-19T05:13:44+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }

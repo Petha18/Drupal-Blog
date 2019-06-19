@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/probando-blog.ddev.local\/sites\/default\/files\/media-icons\/generic\/no-thumbnail.png"
+            "href": "http:\/\/probando-blog.ddev.local\/sites\/default\/files\/2019-06\/cyberpunk-2077.png"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
@@ -14,12 +14,12 @@
     },
     "fid": [
         {
-            "value": 1
+            "value": 4
         }
     ],
     "uuid": [
         {
-            "value": "3266d2ca-a23f-4a67-abc7-f605202c98e6"
+            "value": "6db0147c-6404-4650-bf63-934c0fcd8dd4"
         }
     ],
     "langcode": [
@@ -40,7 +40,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "eb43be22-1dfc-4e67-9a05-909a4a02728f"
+                        "value": "cdafa549-7917-482b-b144-fd6d58485248"
                     }
                 ]
             }
@@ -48,13 +48,13 @@
     },
     "filename": [
         {
-            "value": "no-thumbnail.png"
+            "value": "cyberpunk-2077.png"
         }
     ],
     "uri": [
         {
-            "value": "public:\/\/media-icons\/generic\/no-thumbnail.png",
-            "url": "\/sites\/default\/files\/media-icons\/generic\/no-thumbnail.png"
+            "value": "public:\/\/2019-06\/cyberpunk-2077.png",
+            "url": "\/sites\/default\/files\/2019-06\/cyberpunk-2077.png"
         }
     ],
     "filemime": [
@@ -64,7 +64,7 @@
     ],
     "filesize": [
         {
-            "value": 7318
+            "value": 905444
         }
     ],
     "status": [
@@ -74,13 +74,13 @@
     ],
     "created": [
         {
-            "value": "2019-06-16T21:29:38+00:00",
+            "value": "2019-06-19T05:27:52+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2019-06-16T21:29:38+00:00",
+            "value": "2019-06-19T05:28:00+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ]
