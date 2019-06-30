@@ -12,10 +12,12 @@ module:
   config: 0
   contact: 0
   contextual: 0
+  ctools: 0
   datetime: 0
   dblog: 0
   default_content: 0
   default_content_deploy: 0
+  demo_google_maps: 0
   devel: 0
   dropzonejs: 0
   dropzonejs_eb_widget: 0
@@ -35,6 +37,7 @@ module:
   inline_form_errors: 0
   kint: 0
   link: 0
+  lorem_ipsum_test: 0
   media: 0
   media_entity_browser: 0
   menu_ui: 0
@@ -50,12 +53,14 @@ module:
   system: 0
   taxonomy: 0
   text: 0
+  token: 0
   toolbar: 0
   tour: 0
   update: 0
   user: 0
   views_ui: 0
   menu_link_content: 1
+  pathauto: 1
   views: 10
   minimal: 1000
 theme:

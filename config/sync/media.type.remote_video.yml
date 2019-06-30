@@ -1,0 +1,17 @@
+uuid: 234d13f6-2c26-4663-a814-ea178276cb5b
+langcode: en
+status: true
+dependencies: {  }
+id: remote_video
+label: 'Remote Video'
+description: 'Remote video'
+source: 'oembed:video'
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  thumbnails_directory: 'public://oembed_thumbnails'
+  providers:
+    - YouTube
+    - Vimeo
+  source_field: field_media_oembed_video
+field_map: {  }

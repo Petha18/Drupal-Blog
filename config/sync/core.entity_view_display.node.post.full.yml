@@ -1,9 +1,9 @@
-uuid: 55fa801c-d486-4d11-a09d-cd025643f14b
+uuid: 3f264168-dbbe-42d9-8198-abd5f4356495
 langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.teaser
+    - core.entity_view_mode.node.full
     - field.field.node.post.body
     - field.field.node.post.field_key_words
     - field.field.node.post.field_post_category
@@ -12,34 +12,47 @@ dependencies:
     - field.field.node.post.field_related_links
     - node.type.post
   module:
-    - media
+    - comment
     - text
     - user
-id: node.post.teaser
+id: node.post.full
 targetEntityType: node
 bundle: post
-mode: teaser
+mode: full
 content:
   body:
-    type: text_trimmed
+    label: hidden
+    type: text_default
     weight: 1
-    region: content
-    label: hidden
-    settings:
-      trim_length: 30
+    settings: {  }
     third_party_settings: {  }
+    region: content
+  field_key_words:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_post_comments:
+    weight: 3
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    type: comment_default
+    region: content
   field_post_image:
-    type: media_thumbnail
+    type: entity_reference_entity_view
     weight: 0
-    region: content
     label: hidden
     settings:
-      image_style: ''
-      image_link: content
+      view_mode: full
+      link: false
     third_party_settings: {  }
+    region: content
 hidden:
-  field_key_words: true
   field_post_category: true
-  field_post_comments: true
   field_related_links: true
   links: true

@@ -68,6 +68,7 @@ permissions:
   - 'administer user form display'
   - 'administer users'
   - 'administer views'
+  - 'administer zones'
   - 'bypass node access'
   - 'cancel account'
   - 'change own username'

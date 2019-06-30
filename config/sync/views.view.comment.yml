@@ -876,6 +876,8 @@ display:
       display_extenders: {  }
       exposed_block: false
       display_comment: ''
+      defaults:
+        access: true
     cache_metadata:
       contexts:
         - 'languages:language_content'

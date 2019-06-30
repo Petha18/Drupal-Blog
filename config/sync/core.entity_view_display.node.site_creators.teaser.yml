@@ -7,7 +7,7 @@ dependencies:
     - field.field.node.site_creators.body
     - field.field.node.site_creators.field_name
     - field.field.node.site_creators.field_pic
-    - image.style.large
+    - image.style.thumbnail
     - node.type.site_creators
   module:
     - media
@@ -31,7 +31,7 @@ content:
     region: content
     label: hidden
     settings:
-      image_style: large
+      image_style: thumbnail
       image_link: ''
     third_party_settings: {  }
 hidden:

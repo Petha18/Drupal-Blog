@@ -5,14 +5,15 @@ dependencies:
   config:
     - field.storage.node.field_post_image
     - media.type.image
+    - media.type.remote_video
     - node.type.post
 id: node.post.field_post_image
 field_name: field_post_image
 entity_type: node
 bundle: post
 label: 'Post Image'
-description: 'The image of the post'
-required: false
+description: 'The image or video cover of the post'
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
@@ -21,8 +22,9 @@ settings:
   handler_settings:
     target_bundles:
       image: image
+      remote_video: remote_video
     sort:
       field: _none
     auto_create: false
-    auto_create_bundle: ''
+    auto_create_bundle: image
 field_type: entity_reference

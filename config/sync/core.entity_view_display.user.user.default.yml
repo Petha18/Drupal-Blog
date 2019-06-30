@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.user.user.field_bio
     - field.field.user.user.field_profile_pic
+    - image.style.thumbnail
   module:
     - media
     - text
@@ -26,7 +27,7 @@ content:
     weight: 0
     label: hidden
     settings:
-      image_style: ''
+      image_style: thumbnail
       image_link: ''
     third_party_settings: {  }
     region: content
