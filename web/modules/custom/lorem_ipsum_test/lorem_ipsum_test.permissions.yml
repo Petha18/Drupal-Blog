@@ -1,0 +1,3 @@
+# Permissions defined by the module.
+generate lorem ipsum test:
+  title: 'Generate Lorem ipsum test'

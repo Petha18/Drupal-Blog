@@ -17578,8 +17578,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\ray_p\Documents\Informatica y Tecnnologia Multimedia\x11vo Semestre\Drupal\cloneProject\Probando-blog\web\themes\custom\tema_blogazo\src\js\tema_blogazo.script.js */"./src/js/tema_blogazo.script.js");
-module.exports = __webpack_require__(/*! C:\Users\ray_p\Documents\Informatica y Tecnnologia Multimedia\x11vo Semestre\Drupal\cloneProject\Probando-blog\web\themes\custom\tema_blogazo\src\sass\tema_blogazo.style.scss */"./src/sass/tema_blogazo.style.scss");
+__webpack_require__(/*! C:\Users\ray_p\Documents\Informatica y Tecnnologia Multimedia\x11vo Semestre\Drupal\cloneProject\Drupal-Blog\web\themes\custom\tema_blogazo\src\js\tema_blogazo.script.js */"./src/js/tema_blogazo.script.js");
+module.exports = __webpack_require__(/*! C:\Users\ray_p\Documents\Informatica y Tecnnologia Multimedia\x11vo Semestre\Drupal\cloneProject\Drupal-Blog\web\themes\custom\tema_blogazo\src\sass\tema_blogazo.style.scss */"./src/sass/tema_blogazo.style.scss");
 
 
 /***/ })

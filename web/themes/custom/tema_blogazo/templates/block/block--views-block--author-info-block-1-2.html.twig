@@ -1,0 +1,29 @@
+{#
+/**
+ * @file
+ * Template for a block about the author.
+ */
+#}
+{% set classes = [
+  'block',
+  bundle ? 'block--' ~ bundle|clean_class,
+  id ? 'block--' ~ id|replace({"_": "-"})|clean_class,
+]|merge(utility_classes ? utility_classes : []) %}
+
+<div {{ attributes|without('id').addClass(classes) }}>
+  {{ title_prefix }}
+  {% if label %}
+    {% block label %}
+    <div class="authorInfoTitle">
+      <h2{{ title_attributes }}>{{ label }}</h2>
+    </div>
+    {% endblock %}
+  {% endif %}
+  {{ title_suffix }}
+
+  {% block content %}
+    {{ content }}
+  {% endblock %}
+
+
+</div>

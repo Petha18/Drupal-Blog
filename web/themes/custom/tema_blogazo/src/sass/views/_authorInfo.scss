@@ -1,0 +1,42 @@
+.authorInfo{
+	margin:auto;
+	color: white;
+	div{
+	margin-bottom:1em;
+	}
+	padding-bottom:1em;
+}
+
+.authorInfoTitle{
+    border: solid 2px;
+    border-color: #04bdd6;
+	border-radius: 0.2em;
+	color: #0678be !important;
+	margin-bottom: -2.5em;
+	padding: 2em;
+	background-color: white;
+}
+
+.views-field-name{
+  text-align:center;
+
+  a{
+  text-decoration:none;
+  color:white;
+  }
+}
+
+.views-field-field-profile-pic{
+	img{
+	  border:2px;
+	  border-radius: 50%;
+	  display: block;
+  	  margin-left: auto;
+  	  margin-right: auto;
+	}
+}
+
+.views-field-field-bio{
+	text-align:center;
+	margin-bottom: 5em !important;
+}

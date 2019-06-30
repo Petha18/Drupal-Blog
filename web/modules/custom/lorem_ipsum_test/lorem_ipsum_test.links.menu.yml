@@ -1,0 +1,6 @@
+# Needed to add the menu entry in the admin menu
+lorem_ipsum_test.form:
+  title: 'Lorem Ipsum test settings'
+  description: 'Configure settings for the Lorem Ipsum test module.'
+  route_name: lorem_ipsum_test.form
+  parent: 'system.admin_config_development'

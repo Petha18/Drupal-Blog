@@ -1,0 +1,20 @@
+lorem_ipsum_test.settings:
+  type: config_object
+  label: 'Lorem Ipsum test settings'
+  mapping:
+    lorem_ipsum_test:
+      type: mapping
+      mapping:
+        page_title:
+          type: text
+          label: 'Lorem ipsum test generator page title:'
+        source_text:
+          type: text
+          label: 'Source text for lorem ipsum test generation:'
+block.settings.lorem_ipsum_test_block:
+  type: block_settings
+  label: 'Lorem ipsum test block'
+  mapping:
+    lorem_ipsum_test_block_settings:
+      type: text
+      label: 'Lorem ipsum block settings'
