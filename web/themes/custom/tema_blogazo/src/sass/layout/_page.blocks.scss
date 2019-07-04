@@ -1,4 +1,4 @@
-// estas variables son la de los colores del tema_blogazo
+// Variables of the colors
 $azul-oscuro: #0678be !default;
 $celeste: #04bdd6 !default ;
 $rojo: #ca1a1b !default;
@@ -189,5 +189,12 @@ background-color: $azul-oscuro;
     div{
     margin-top:1em !important;
     }
+  }
+}
+
+.post-teasers{
+  img{
+    width:300px !important;
+    height:190px !important;
   }
 }

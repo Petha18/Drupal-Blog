@@ -9747,6 +9747,11 @@ a.text-dark:hover, a.text-dark:focus {
   margin-top: 1em !important;
 }
 
+.post-teasers img {
+  width: 300px !important;
+  height: 190px !important;
+}
+
 .navbar-custom-color {
   color: white;
 }

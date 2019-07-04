@@ -3,7 +3,6 @@ module:
   big_pipe: 0
   breakpoint: 0
   components: 0
-  consumer_api_test: 0
   ctools: 0
   datetime: 0
   dblog: 0
