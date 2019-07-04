@@ -1,6 +1,0 @@
-name: Lorem ipsum test
-type: module
-description: 'Lorem ipsum test'
-package: Development
-core: 8.x
-configure: lorem_ipsum_test.form

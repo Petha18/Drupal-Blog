@@ -1,7 +1,0 @@
-consumer_api_test.content:
-  path: '/consumerapi'
-  defaults:
-    _controller: '\Drupal\consumer_api_test\Controller\ConsumerApiTestController::get_result'
-    _title: 'Consumer Api'
-  requirements:
-    _permission: ' view consumer_api_test'

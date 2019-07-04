@@ -1,5 +1,0 @@
-name: consumer api
-core: 8.x
-type: module
-package: Custom
-version: 1.0

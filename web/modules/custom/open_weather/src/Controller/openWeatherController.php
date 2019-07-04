@@ -44,7 +44,7 @@ class openWeatherController extends ControllerBase {
     return[
       '#type' => 'markup',
       '#markup' => $this->t('
-        <div class="container-fluid openWeather">
+        <div class="container-fluid openWeather order-sm-1 order-1">
         <div class="row ">
         <div class="col-md-3 minidisplay">
         <img alt="clear sky" src="//openweathermap.org/img/wn/'.$content['weather'][0]['icon'].'@2x.png" width="150" height="150">
@@ -69,14 +69,6 @@ class openWeatherController extends ControllerBase {
         </div>
         </div>
         
-        
-        
-        
-         
-         
-         
-         
-
       '),
     ];
   }
