@@ -1,0 +1,15 @@
+uuid: ef4de43c-5163-4b69-8a9f-13c0dd03e016
+langcode: en
+status: true
+dependencies: {  }
+name: home_thu
+label: 'Home thumbnail'
+effects:
+  01bdaeed-04ac-4ddf-b77d-219f567c7eda:
+    uuid: 01bdaeed-04ac-4ddf-b77d-219f567c7eda
+    id: image_scale
+    weight: 1
+    data:
+      width: 600
+      height: 400
+      upscale: true

@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Installation function for consumer api
+ */
+
+use Drupal\user\RoleInterface;
+/**
+ * Implements hook_install()
+ */
+
+function consumer_api_test_install(){
+  user_role_change_permissions(RoleInterface::ANONYMOUS_ID, [
+    'slang it up' => TRUE,
+  ]);
+}

@@ -85,6 +85,17 @@ background-color: $azul-oscuro;
     margin-bottom:5%;
 }
 
+.block--openweatherblock{// 6. Bloque Open Weather
+    background-color: white ;
+    margin-top:1em; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: auto;
+    border:solid 1px #04bdd6;
+    border-radius:0.5em;
+    border-color: $celeste;
+    margin-bottom:5%;
+}
+
 //Fields*********************
 .views-field-field-related-links{//1.Campo de related links // Bloque related links
 
@@ -139,4 +150,44 @@ background-color: $azul-oscuro;
 
 .views-view-grid .views-row{
 	margin-bottom:2em;
+}
+
+.minidisplay{
+  text-align: center;
+  vertical-align: top;
+  display:inline-block;
+  background-color:$gray-400;
+  padding: 1em;
+  border-radius: 6px 0px 0px 6px
+}
+
+.small_val{
+  display:block; 
+  font-size: small;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.openWeather{
+  background-color:#49739d;
+  border-radius: 10px;
+}
+
+.openWeatherInfo{
+  padding:1em;
+  .row{
+    margin-bottom:1em;
+    font-family: "Montserrat",sans-serif;
+    border-bottom:solid 0.5px black;
+    color:white;
+    margin-top:1.5em;
+
+    p{
+      margin:0px;
+    }
+
+    div{
+    margin-top:1em !important;
+    }
+  }
 }

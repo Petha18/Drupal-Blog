@@ -1,0 +1,5 @@
+open_weather:
+  page_title: 'Open Weather'
+  source_text: 'London, uk'
+_core:
+  default_config_hash: qnwd6myvbFv1rMMDUoFu1lM04dIDRBHmipjUCpZOU6M

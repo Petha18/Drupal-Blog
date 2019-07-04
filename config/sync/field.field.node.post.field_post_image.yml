@@ -12,7 +12,7 @@ field_name: field_post_image
 entity_type: node
 bundle: post
 label: 'Post Image'
-description: 'The image or video cover of the post'
+description: 'The image or video cover of the post, requiere to display the post in the site.'
 required: true
 translatable: false
 default_value: {  }

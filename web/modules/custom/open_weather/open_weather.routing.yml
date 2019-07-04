@@ -1,0 +1,18 @@
+open_weather.content:
+  path: '/openWeather'
+  defaults:
+    _controller: '\Drupal\open_weather\Controller\openWeatherController::get_result'
+    _title: 'Check Out The Weather in any City'
+  requirements:
+    _permission: 'access content'
+    _access: 'TRUE'
+
+
+# Route for the settings form of this module
+open_weather.form:
+  path: '/admin/config/development/open_weather'
+  defaults:
+    _form: 'Drupal\open_weather\Form\OpenWeatherBlockForm'
+    _title: 'Open Weather settings'
+  requirements:
+    _access: 'TRUE'

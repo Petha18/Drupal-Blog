@@ -1,0 +1,6 @@
+name: Open Weather Module 
+type: module
+description: Creates a block that shows the Weather forecast.
+package: Custom
+version: 1.0
+core: 8.x

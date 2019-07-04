@@ -195,7 +195,7 @@ display:
         type: normal
         title: Blog
         menu_name: main
-        weight: -49
+        weight: -50
     cache_metadata:
       max-age: -1
       contexts:

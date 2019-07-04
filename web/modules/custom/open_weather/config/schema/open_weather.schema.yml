@@ -1,0 +1,20 @@
+open_weather.settings:
+  type: config_object
+  label: 'Open Weather config settings'
+  mapping:
+    open_weather:
+      type: mapping
+      mapping:
+        page_title:
+          type: text
+          label: 'Open weather page title:'
+        source_text:
+          type: text
+          label: 'Choose the city you watn to show the forecast of:'
+block.settings.open_weather_block:
+  type: block_settings
+  label: 'Open Weather block'
+  mapping:
+    open_weather_block_settings:
+      type: text
+      label: 'Open weather block settings'

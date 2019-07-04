@@ -1,47 +1,25 @@
 module:
-  admin_toolbar: 0
-  admin_toolbar_tools: 0
   automated_cron: 0
   big_pipe: 0
-  block: 0
   breakpoint: 0
-  ckeditor: 0
-  color: 0
-  comment: 0
   components: 0
-  config: 0
-  contact: 0
-  contextual: 0
+  consumer_api_test: 0
   ctools: 0
   datetime: 0
   dblog: 0
-  default_content: 0
-  default_content_deploy: 0
-  demo_google_maps: 0
   devel: 0
-  dropzonejs: 0
-  dropzonejs_eb_widget: 0
   dynamic_page_cache: 0
   editor: 0
-  entity_browser: 0
-  entity_browser_entity_form: 0
-  field: 0
-  field_ui: 0
   file: 0
-  filter: 0
-  hal: 0
-  help: 0
   history: 0
   image: 0
-  inline_entity_form: 0
   inline_form_errors: 0
   kint: 0
   link: 0
   lorem_ipsum_test: 0
-  media: 0
-  media_entity_browser: 0
   menu_ui: 0
   node: 0
+  open_weather: 0
   options: 0
   page_cache: 0
   path: 0
@@ -51,7 +29,6 @@ module:
   serialization: 0
   shortcut: 0
   system: 0
-  taxonomy: 0
   text: 0
   token: 0
   toolbar: 0
@@ -59,8 +36,32 @@ module:
   update: 0
   user: 0
   views_ui: 0
+  admin_toolbar: 1
+  admin_toolbar_tools: 1
+  block: 1
+  ckeditor: 1
+  color: 1
+  comment: 1
+  config: 1
+  contact: 1
+  contextual: 1
+  default_content: 1
+  default_content_deploy: 1
+  dropzonejs: 1
+  dropzonejs_eb_widget: 1
+  entity_browser: 1
+  entity_browser_entity_form: 1
+  field: 1
+  field_ui: 1
+  filter: 1
+  hal: 1
+  help: 1
+  inline_entity_form: 1
+  media: 1
+  media_entity_browser: 1
   menu_link_content: 1
   pathauto: 1
+  taxonomy: 1
   views: 10
   minimal: 1000
 theme:

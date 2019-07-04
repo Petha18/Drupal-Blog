@@ -1,0 +1,29 @@
+{#
+/**
+ * @file
+ * Template for a Open Weather Block.
+ */
+#}
+{% set classes = [
+  'block',
+  bundle ? 'block--' ~ bundle|clean_class,
+  id ? 'block--' ~ id|replace({"_": "-"})|clean_class,
+]|merge(utility_classes ? utility_classes : []) %}
+
+<div class="block--openweatherblock">
+  {{ title_prefix }}
+  {% if label %}
+    {% block label %}
+    <div class="titleSidebarBlocks">
+      <h2{{ title_attributes }}>{{ label }}</h2>
+    </div>
+    {% endblock %}
+  {% endif %}
+  {{ title_suffix }}
+
+  {% block content %}
+    <div class="sidebarBlocks">{{ content }}</div>
+  {% endblock %}
+
+
+</div>

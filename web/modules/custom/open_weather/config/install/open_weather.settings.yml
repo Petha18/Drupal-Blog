@@ -1,0 +1,3 @@
+open_weather:
+  page_title: 'Open Weather'
+  source_text: "London, uk"

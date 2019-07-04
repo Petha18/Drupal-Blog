@@ -10,7 +10,7 @@ lorem_ipsum_test.generate:
 lorem_ipsum_test.form:
   path: '/admin/config/development/lorem_ipsum_test'
   defaults:
-    _form: 'Drupal\lorem_ipsum_test\Form\LoremIpsumTestForm'
+    _form: 'Drupal\lorem_ipsum_test\Form\LoremImpsumTestForm'
     _title: 'Lorem ipsum test settings'
   requirements:
-    _permission: 'administer site configuration'
+    _permission: 'generate lorem ipsum test'

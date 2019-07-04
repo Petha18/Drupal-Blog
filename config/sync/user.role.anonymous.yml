@@ -13,4 +13,5 @@ permissions:
   - 'access content'
   - 'generate lorem ipsum test'
   - 'post comments'
+  - 'slang it up'
   - 'view media'

@@ -1,0 +1,20 @@
+<?php
+use Drupal\Core\Routing\RouteMatchInterface;
+
+function open_weather_permission(){
+	return[
+		'access content' => ['title' => t('Acceso a la pagina de Open Weather')],
+	];
+}
+
+function open_weather_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.open_weather':
+      return t('
+        <h2>Generates a block with the Weather forecast.</h2>
+        <h3>Instructions</h3>
+        <p>Unpack in the <em>modules</em> folder (currently in the root of your Drupal 8 installation) and enable in <strong>/admin/modules</strong>.</p>
+        <p>This module enables a block with a weather forecast near the user location, you can configure the location or let the browser use your location!</p>
+      ');
+  }
+}

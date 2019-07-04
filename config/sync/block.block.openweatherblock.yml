@@ -1,0 +1,27 @@
+uuid: da790fb0-f54b-4c1e-96e2-83108d9aa390
+langcode: en
+status: true
+dependencies:
+  module:
+    - open_weather
+    - system
+  theme:
+    - tema_blogazo
+id: openweatherblock
+theme: tema_blogazo
+region: sidebar_second
+weight: -3
+provider: null
+plugin: open_weather_block
+settings:
+  id: open_weather_block
+  label: 'Open Weather block'
+  provider: open_weather
+  label_display: visible
+  open_weather_settings: 'London, uk'
+visibility:
+  request_path:
+    id: request_path
+    pages: /openWeather
+    negate: false
+    context_mapping: {  }
